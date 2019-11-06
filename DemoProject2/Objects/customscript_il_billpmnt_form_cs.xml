@@ -1,0 +1,34 @@
+<clientscript scriptid="customscript_il_billpmnt_form_cs">
+  <description></description>
+  <fieldchangedfunction>billPaymentForm_fieldChanged</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction>billPaymentForm_lineInit</lineinitfunction>
+  <name>IL Bill Payment Form CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>billPaymentForm_initPage</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction>billPaymentForm_Recalc</recalcfunction>
+  <saverecordfunction>billPaymentForm_saveRecord</saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_CS_Forms_Localization.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction>billPaymentForm_validateField</validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction>billPaymentForm_validateLine</validatelinefunction>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_il_billpmnt_form_cs">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>ACTION|BUNDLEINSTALLATION|CLIENT|CONSOLRATEADJUSTOR|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|DEBUGGER|EMAILCAPTURE|MAPREDUCE|OTHER|PAYMENTGATEWAY|PAYMENTPOSTBACK|PORTLET|PROMOTIONS|RESTLET|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WEBAPPLICATION|WEBSERVICES|WORKFLOW</executioncontext>
+      <isdeployed>F</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>VENDORPAYMENT</recordtype>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</clientscript>

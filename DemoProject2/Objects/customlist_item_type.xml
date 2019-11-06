@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_item_type">
+  <description>Used for Item Request</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Item Type</name>
+  <customvalues>
+    <customvalue scriptid="val_21722210_3431250_411">
+      <isinactive>F</isinactive>
+      <value>Product/Item</value>
+    </customvalue>
+    <customvalue scriptid="val_21722211_3431250_420">
+      <isinactive>F</isinactive>
+      <value>Service</value>
+    </customvalue>
+  </customvalues>
+</customlist>

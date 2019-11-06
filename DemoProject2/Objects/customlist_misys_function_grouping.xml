@@ -1,0 +1,140 @@
+<customlist scriptid="customlist_misys_function_grouping">
+  <description>This was requested to be added on Oct 17, 2013.</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Function Grouping</name>
+  <customvalues>
+    <customvalue scriptid="val_14986349_3431250_731">
+      <isinactive>F</isinactive>
+      <value>Audit &amp; Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_16_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Billing &amp; Revenue Assurance</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Bus Dev</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Cloud</value>
+    </customvalue>
+    <customvalue scriptid="value_15_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Customer Support</value>
+    </customvalue>
+    <customvalue scriptid="val_14986348_3431250_702">
+      <isinactive>F</isinactive>
+      <value>EPMO</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>EVPs</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Finance</value>
+    </customvalue>
+    <customvalue scriptid="value_17_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Funded Development</value>
+    </customvalue>
+    <customvalue scriptid="value_19_3431250_417">
+      <isinactive>F</isinactive>
+      <value>G&amp;A Other</value>
+    </customvalue>
+    <customvalue scriptid="val_23493324_3431250_427">
+      <isinactive>F</isinactive>
+      <value>Global Services</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>HR</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IS</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legal</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Marketing</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Open Source</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Professional Services</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>R&amp;D</value>
+    </customvalue>
+    <customvalue scriptid="val_6673177_3431250_245">
+      <isinactive>F</isinactive>
+      <value>RA</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Real Estate</value>
+    </customvalue>
+    <customvalue scriptid="value_18_3431250_417">
+      <isinactive>F</isinactive>
+      <value>SaaS</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Sales</value>
+    </customvalue>
+    <customvalue scriptid="val_14986359_3431250_192">
+      <isinactive>F</isinactive>
+      <value>Subscriptions</value>
+    </customvalue>
+    <customvalue scriptid="val_14986350_3431250_212">
+      <isinactive>F</isinactive>
+      <value>TEMS</value>
+    </customvalue>
+    <customvalue scriptid="val_14986357_3431250_688">
+      <isinactive>F</isinactive>
+      <value>TEMS Cloud</value>
+    </customvalue>
+    <customvalue scriptid="val_14986351_3431250_989">
+      <isinactive>F</isinactive>
+      <value>TEMS G&amp;A</value>
+    </customvalue>
+    <customvalue scriptid="val_14986352_3431250_649">
+      <isinactive>F</isinactive>
+      <value>TEMS Other</value>
+    </customvalue>
+    <customvalue scriptid="val_14986353_3431250_708">
+      <isinactive>F</isinactive>
+      <value>TEMS Product</value>
+    </customvalue>
+    <customvalue scriptid="val_14986354_3431250_936">
+      <isinactive>F</isinactive>
+      <value>TEMS Sales</value>
+    </customvalue>
+    <customvalue scriptid="val_14986355_3431250_923">
+      <isinactive>F</isinactive>
+      <value>TEMS Services</value>
+    </customvalue>
+    <customvalue scriptid="val_14986356_3431250_681">
+      <isinactive>F</isinactive>
+      <value>TEMS Support</value>
+    </customvalue>
+    <customvalue scriptid="val_14986358_3431250_201">
+      <isinactive>F</isinactive>
+      <value>Transaction Processing</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,52 @@
+<customlist scriptid="customlist_code_of_supply">
+  <description>This is a list of code of supply.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Code of Supply</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1 - delivery of gold (performance under § 92b)</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>3 - delivery of immovable property if, when this supply applies tax (filling in accordance with § 92d)</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>4 - provision of construction and assembly work (filling according to § 92e)</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>5 - the goods listed in Annex no. 5 of the VAT Act (filling in accordance with § 92c)</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>11 - transfer of allowances to emit greenhouse gases</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>12 - cereals and industrial crops</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>13 - metals, including precious metals</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>14 - mobile phones</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>15 - integrated circuits and printed circuit boards</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>16 - portable automatic data processing (eg. tablets and laptops)</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>17 - video game console</value>
+    </customvalue>
+  </customvalues>
+</customlist>

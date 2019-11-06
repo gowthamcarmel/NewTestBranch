@@ -1,0 +1,516 @@
+<customlist scriptid="customlist_projecthierarchy">
+  <description>Sent from SFDC via NS to OA</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Misys Project Hierarchy</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Possible values not defined</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Misys</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Development &amp; QA</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Customer Support</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Global Solution Centre</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Professional Services</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Sales</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Corporate</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-APAC</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Americas</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Pending</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-MEA</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Europe-North</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_15_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_16_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_17_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Global Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_18_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_19_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Open Source Development</value>
+    </customvalue>
+    <customvalue scriptid="value_20_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Bankfusion</value>
+    </customvalue>
+    <customvalue scriptid="value_21_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-QA &amp; Testing</value>
+    </customvalue>
+    <customvalue scriptid="value_22_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-Summit</value>
+    </customvalue>
+    <customvalue scriptid="value_23_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-iSophis</value>
+    </customvalue>
+    <customvalue scriptid="value_24_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-Kondor Plus</value>
+    </customvalue>
+    <customvalue scriptid="value_25_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-Opics</value>
+    </customvalue>
+    <customvalue scriptid="value_26_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-BF-BF Universal Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_27_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CB-Midas</value>
+    </customvalue>
+    <customvalue scriptid="value_28_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CB-Equation</value>
+    </customvalue>
+    <customvalue scriptid="value_29_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Bankmaster</value>
+    </customvalue>
+    <customvalue scriptid="value_30_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-IFM</value>
+    </customvalue>
+    <customvalue scriptid="value_31_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-L-Loan IQ</value>
+    </customvalue>
+    <customvalue scriptid="value_32_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-Trade Innovation</value>
+    </customvalue>
+    <customvalue scriptid="value_33_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-Payment and Message Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_34_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-Trade Portal</value>
+    </customvalue>
+    <customvalue scriptid="value_35_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-CMS</value>
+    </customvalue>
+    <customvalue scriptid="value_36_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-KTP</value>
+    </customvalue>
+    <customvalue scriptid="value_37_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-ER-Misys Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_38_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-ER-Almonde</value>
+    </customvalue>
+    <customvalue scriptid="value_39_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-ER-Kondor Global Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_40_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-Misys Mobile</value>
+    </customvalue>
+    <customvalue scriptid="value_41_3431250_417">
+      <isinactive>F</isinactive>
+      <value>R&amp;D</value>
+    </customvalue>
+    <customvalue scriptid="value_42_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Product Management</value>
+    </customvalue>
+    <customvalue scriptid="value_43_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-Misys Portal</value>
+    </customvalue>
+    <customvalue scriptid="value_44_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CB-Misys Business Intelligence</value>
+    </customvalue>
+    <customvalue scriptid="value_45_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-BF-BF Shared Applications</value>
+    </customvalue>
+    <customvalue scriptid="value_46_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-Risque and Value</value>
+    </customvalue>
+    <customvalue scriptid="value_47_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-BF-BF Platform</value>
+    </customvalue>
+    <customvalue scriptid="value_48_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-P&amp;T-Platform Services UX &amp; UI</value>
+    </customvalue>
+    <customvalue scriptid="value_49_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Tools &amp; Processes</value>
+    </customvalue>
+    <customvalue scriptid="value_50_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-GTB-BF Meridian</value>
+    </customvalue>
+    <customvalue scriptid="value_51_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_52_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_53_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_54_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-Global Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_55_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_56_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-AI &amp; I</value>
+    </customvalue>
+    <customvalue scriptid="value_57_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-Summit</value>
+    </customvalue>
+    <customvalue scriptid="value_58_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-iSophis</value>
+    </customvalue>
+    <customvalue scriptid="value_59_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-Kondor Plus</value>
+    </customvalue>
+    <customvalue scriptid="value_60_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-Opics</value>
+    </customvalue>
+    <customvalue scriptid="value_61_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-Risque and Value</value>
+    </customvalue>
+    <customvalue scriptid="value_62_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-BF Universal Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_63_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-Midas</value>
+    </customvalue>
+    <customvalue scriptid="value_64_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-Equation</value>
+    </customvalue>
+    <customvalue scriptid="value_65_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-Bankmaster</value>
+    </customvalue>
+    <customvalue scriptid="value_66_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-BF Shared Applications</value>
+    </customvalue>
+    <customvalue scriptid="value_67_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-IFM</value>
+    </customvalue>
+    <customvalue scriptid="value_68_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-Misys Portal</value>
+    </customvalue>
+    <customvalue scriptid="value_69_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CB-Misys Business Intelligence</value>
+    </customvalue>
+    <customvalue scriptid="value_70_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-L-Loan IQ</value>
+    </customvalue>
+    <customvalue scriptid="value_71_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-Trade Innovation</value>
+    </customvalue>
+    <customvalue scriptid="value_72_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-Payment and Message Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_73_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-Trade Portal</value>
+    </customvalue>
+    <customvalue scriptid="value_74_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-CMS</value>
+    </customvalue>
+    <customvalue scriptid="value_75_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-KTP</value>
+    </customvalue>
+    <customvalue scriptid="value_76_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-GTB-Misys Mobile</value>
+    </customvalue>
+    <customvalue scriptid="value_77_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-ER-Misys Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_78_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-ER-Almonde</value>
+    </customvalue>
+    <customvalue scriptid="value_79_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-ER-Kondor Global Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_80_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_81_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Knowledge Management</value>
+    </customvalue>
+    <customvalue scriptid="value_82_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_83_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-SAG</value>
+    </customvalue>
+    <customvalue scriptid="value_84_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Lending / GTB</value>
+    </customvalue>
+    <customvalue scriptid="value_85_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-GCC Manila</value>
+    </customvalue>
+    <customvalue scriptid="value_86_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_87_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CS-Engagement Management</value>
+    </customvalue>
+    <customvalue scriptid="value_88_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-Other Sophis</value>
+    </customvalue>
+    <customvalue scriptid="value_89_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Strategic Initiatives</value>
+    </customvalue>
+    <customvalue scriptid="value_90_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Global PMO</value>
+    </customvalue>
+    <customvalue scriptid="value_91_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas</value>
+    </customvalue>
+    <customvalue scriptid="value_92_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_93_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_94_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_95_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas Corporate Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_96_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Americas Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_97_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC</value>
+    </customvalue>
+    <customvalue scriptid="value_98_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe</value>
+    </customvalue>
+    <customvalue scriptid="value_99_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA</value>
+    </customvalue>
+    <customvalue scriptid="value_100_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Enablement</value>
+    </customvalue>
+    <customvalue scriptid="value_101_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG</value>
+    </customvalue>
+    <customvalue scriptid="value_102_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_103_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_104_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC Corporate Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_105_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_106_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - APAC Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_107_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_108_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_109_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_110_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_111_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - Europe Corporate Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_112_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA Core Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_113_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_114_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA Enterprise Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_115_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA Transaction Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_116_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BSG - MEA Corporate Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_117_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-ER-Misys Global Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_118_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-ER-Top Office</value>
+    </customvalue>
+    <customvalue scriptid="value_119_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-ER-Top Office</value>
+    </customvalue>
+    <customvalue scriptid="value_120_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-ER-Misys Global Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_121_3431250_417">
+      <isinactive>F</isinactive>
+      <value>SaaS</value>
+    </customvalue>
+    <customvalue scriptid="value_122_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Academy</value>
+    </customvalue>
+    <customvalue scriptid="value_123_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Engineering Support Group</value>
+    </customvalue>
+    <customvalue scriptid="value_124_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-Europe-South</value>
+    </customvalue>
+    <customvalue scriptid="value_125_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEV&amp;QA-CM-CM Fusion</value>
+    </customvalue>
+    <customvalue scriptid="value_126_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PM-CM-CM Fusion</value>
+    </customvalue>
+    <customvalue scriptid="value_127_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Templates</value>
+    </customvalue>
+  </customvalues>
+</customlist>

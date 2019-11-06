@@ -1,0 +1,64 @@
+<customlist scriptid="customlist_ps_territory">
+  <description>A grouping of countries into territories used by GS which do not align completely to regions</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>GS Territory</name>
+  <customvalues>
+    <customvalue scriptid="val_14913552_3431250_974">
+      <isinactive>F</isinactive>
+      <value>Asia North</value>
+    </customvalue>
+    <customvalue scriptid="val_14913553_3431250_387">
+      <isinactive>F</isinactive>
+      <value>Asia South</value>
+    </customvalue>
+    <customvalue scriptid="val_14913554_3431250_806">
+      <isinactive>F</isinactive>
+      <value>ANZ/PI</value>
+    </customvalue>
+    <customvalue scriptid="val_14913555_3431250_443">
+      <isinactive>F</isinactive>
+      <value>China</value>
+    </customvalue>
+    <customvalue scriptid="val_14913556_3431250_769">
+      <isinactive>F</isinactive>
+      <value>Africa</value>
+    </customvalue>
+    <customvalue scriptid="val_14913557_3431250_974">
+      <isinactive>F</isinactive>
+      <value>ME1</value>
+    </customvalue>
+    <customvalue scriptid="val_14913558_3431250_986">
+      <isinactive>F</isinactive>
+      <value>ME2</value>
+    </customvalue>
+    <customvalue scriptid="val_14913559_3431250_641">
+      <isinactive>F</isinactive>
+      <value>EEUR</value>
+    </customvalue>
+    <customvalue scriptid="val_14913560_3431250_671">
+      <isinactive>F</isinactive>
+      <value>NEUR</value>
+    </customvalue>
+    <customvalue scriptid="val_14913561_3431250_853">
+      <isinactive>F</isinactive>
+      <value>SEUR</value>
+    </customvalue>
+    <customvalue scriptid="val_14913562_3431250_211">
+      <isinactive>F</isinactive>
+      <value>CNTL</value>
+    </customvalue>
+    <customvalue scriptid="val_14913563_3431250_666">
+      <isinactive>F</isinactive>
+      <value>LAM</value>
+    </customvalue>
+    <customvalue scriptid="val_14913564_3431250_279">
+      <isinactive>F</isinactive>
+      <value>NAM</value>
+    </customvalue>
+    <customvalue scriptid="val_17526316_3431250_918">
+      <isinactive>F</isinactive>
+      <value>DACH</value>
+    </customvalue>
+  </customvalues>
+</customlist>

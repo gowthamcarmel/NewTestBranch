@@ -1,0 +1,11 @@
+<emailtemplate scriptid="custemailtmpl_2_3431250_943">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <name>[NS] New Item Receipt Template</name>
+  <recordtype></recordtype>
+  <subject>New Item Receipt</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

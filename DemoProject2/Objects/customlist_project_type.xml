@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_project_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Project Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Fixed Price</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Time &amp; Material</value>
+    </customvalue>
+  </customvalues>
+</customlist>

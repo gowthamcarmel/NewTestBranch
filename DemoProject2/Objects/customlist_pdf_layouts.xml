@@ -1,0 +1,18 @@
+<customlist scriptid="customlist_pdf_layouts">
+  <description>PDF Layout&#xd;
+1.Primary - Misys&#xd;
+2. Secondary - DH</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>PDF Layout</name>
+  <customvalues>
+    <customvalue scriptid="val_26484031_3431250_sb99_313">
+      <isinactive>F</isinactive>
+      <value>Primary</value>
+    </customvalue>
+    <customvalue scriptid="val_26484032_3431250_sb99_837">
+      <isinactive>F</isinactive>
+      <value>Secondary</value>
+    </customvalue>
+  </customvalues>
+</customlist>

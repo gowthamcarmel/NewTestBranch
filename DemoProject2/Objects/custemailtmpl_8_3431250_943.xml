@@ -1,0 +1,11 @@
+<emailtemplate scriptid="custemailtmpl_8_3431250_943">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <name>VIU Rejection</name>
+  <recordtype></recordtype>
+  <subject>Acknowledgement of Invoice received</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

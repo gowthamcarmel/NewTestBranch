@@ -1,0 +1,28 @@
+<customlist scriptid="customlist1">
+  <description>Project Status</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Project Status</name>
+  <customvalues>
+    <customvalue scriptid="val_32366039_3431250_sb99_419">
+      <isinactive>F</isinactive>
+      <value>Closed</value>
+    </customvalue>
+    <customvalue scriptid="val_32366040_3431250_sb99_839">
+      <isinactive>F</isinactive>
+      <value>In Progress</value>
+    </customvalue>
+    <customvalue scriptid="val_32366041_3431250_sb99_285">
+      <isinactive>F</isinactive>
+      <value>Not Awarded</value>
+    </customvalue>
+    <customvalue scriptid="val_32366042_3431250_sb99_987">
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="val_32366043_3431250_sb99_783">
+      <isinactive>F</isinactive>
+      <value>Awarded</value>
+    </customvalue>
+  </customvalues>
+</customlist>

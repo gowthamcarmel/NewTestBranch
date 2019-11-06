@@ -1,0 +1,129 @@
+/**
+ * Module Description
+ * 
+ * Version    Date            Author           Remarks
+ * 1.00       08 Aug 2014     alaurito
+ *            02 Feb 2017     eolaguir          Additional fields for FRD14
+ *
+ */
+
+/*
+ * Instructions to create API JSON Request custom record:
+ * - Create new Custom Record:
+ *   - Name: API JSON Request
+ *   - ID: _api_json_request
+ *   - Include Name Field: Not Ticked
+ * - Fields:
+ *   1) External ID:
+ *      - ID: _api_externalid
+ *      - Type: Free-Form Text
+ *   2) JSON Request:
+ *      - ID: _api_json_request_string
+ *      - Type: Long Text
+ * 
+ * Instructions to create restlet script:
+ * - Create new script > RESTlet
+ * - Script File: API_RESTlet_v2.js (this file's name) 
+ * - Libraries: SWV_SB_RS_Plugin.js
+ * - Function: postRESTlet
+ * - Create deployment
+ */
+
+/**
+ * @param {Object} dataIn Parameter object
+ * @returns {Object} Output object
+ */
+function postRESTlet(dataIn) {
+    // TODO: change custom fields to set for header and line items here
+	var customBodyFieldIds = ["custbody_docmemo", "custbodycustbody_cashaccounting", "custbody_transactioncategory", "custbody_invoice_credit_body",
+	                          "custbody_billing_contact", "custbody_misysref", "custbody_contractno", "custbody_contractdate", "custbody_porequired", 
+	                          "custbody_packagecompleted", "custbody_mys_tax_combo_chck", "custbody_delivery_address", "custbody_misys_migrate_start_date", "trandate",
+	                          "startdate", "otherrefnum", "memo", "partner", "location", "department" , "class", "terms", "currency", "shipaddresslist", "billaddresslist", "custbody_sb_start_type", 
+	                          "custbody_sb_subscription_option", "custbody_sb_subscription_sales_order", "custbody_sb_fixed_billing_date_so","custbody_sb_timezone", 
+	                       	  "custbody_sb_billing_transaction", "custbody_exportedfromsfdc", "custbody_syncedtosfdc", "custbody_is_rlf", "custbody_sfdc_billing_group", "custbody_contract_id", "custbody_sfdc_billing_group_id", "custbody_opportunity_id", "custbody_reset_next_bill_date", "custbody_bg_next_invoice_due_date", "custbody_opportunity_owner_ns_id","custbody_department_internal_id","custbody_class_internal_id", "custbody_misyssalestype", "custbody_license_band_quantity"];
+    
+    var customLineFieldIds = ["custcol_create_3pp_po", "custcol_3pp_rate", "custcol_3pp_rate_currency", "custcol_vendor_billing_schedule_3pp",
+                              "custcol_3pp_disc_percent", "custcol_3pp_vendor_bsch_trigger", "custcol_licence_basis", "custcol_sb_start_date", "rate", "taxcode", 
+                			  "custcol_planned_billing_startdate", "custcol_rb_start_trigger", "custcol_sb_item_start_type", "rate", "vsoeprice", "custcol_sfdc_soi_id", "custcol_exported_from_sfdc", "custcol_sfdc_contract_asset_id", "custcol_3pp_asset_environ", "custcol_3pp_asset_location", "custcol_3pp_legacy_ref", "custcol_ssi_earliest_uplift_rev_date", "custcol_msys_nxtpaydate", "custcol_license_band_quantity",
+                              "custcol_vsoeallocation", "custcol_arm_fair_value2", "custcol_arm_vsoedelivered", "custcol_arm_start_date", "custcol_arm_end_date","custcol_revrecsched"];
+    
+    // dataIn request should contain the necessary parameters for rbCreateSalesOrder and custom field mapping
+    // rbSalesOrderIsApproved should be F
+    // for custom field mapping, tran body and line custom field ids are used 
+    nlapiLogExecution('audit', 'postRESTlet', 'start' + ' [' + (new Date()).toLocaleString() + ']');
+    nlapiLogExecution('debug', 'postRESTlet', 'orig request: ' + JSON.stringify(dataIn));
+    
+    // initial response object
+    var responseObj = {};
+    
+    try {
+        if (!dataIn) {
+            // error thrown if there is no request
+            throw nlapiCreateError('NO_REQUEST', 'empty request');
+        }
+        
+        // check if the object has a rbOrderURN property and assign random if not
+        if (!dataIn.hasOwnProperty('rbOrderURN')) {
+            dataIn.rbOrderURN = 'rb' + Math.round(Math.random() * 1000000); // TODO: they can change this if they want some other default
+        }
+        
+        // create new API JSON request record
+        var apiJsonRec = nlapiCreateRecord('customrecordcust_misys_sorec');
+        apiJsonRec.setFieldValue('externalid', dataIn.rbOrderURN);
+        apiJsonRec.setFieldValue('custrecordmisys_json_request_string', JSON.stringify(dataIn));
+        nlapiLogExecution('debug', 'postRESTlet', 'to be populated in request: ' + JSON.stringify(dataIn));
+        nlapiLogExecution('debug', 'postRESTlet', 'populated request: ' + JSON.stringify(apiJsonRec.getFieldValue('custrecordmisys_json_request_string')));
+        var jsonRecId = nlapiSubmitRecord(apiJsonRec);
+        nlapiLogExecution('audit', 'postRESTlet', 'successfully created api json record - id: ' + jsonRecId);
+        
+        // processing start
+        // create a request without custom fields
+        var rbReqObj = {};
+        // set body fields for rbReqObj
+        for (var i in dataIn) {
+            if (customBodyFieldIds.indexOf(i) == -1) {
+                rbReqObj[i] = dataIn[i];
+            }
+        }
+        // set line fields for rbReqObj
+        if (dataIn.rbOrderDetails && dataIn.rbOrderDetails.length > 0) {
+            rbReqObj.rbOrderDetails = [];
+            for (var i = 0; i < dataIn.rbOrderDetails.length; i++) {
+                var rbOrderDetail = {};
+                for (var j in dataIn.rbOrderDetails[i]) {
+                    if (customLineFieldIds.indexOf(j) == -1) {
+                        rbOrderDetail[j] = dataIn.rbOrderDetails[i][j];
+                    }
+                }
+                rbReqObj.rbOrderDetails.push(rbOrderDetail);
+            }
+            nlapiLogExecution('debug', 'postRESTlet', 'object for rb request call: ' + JSON.stringify(rbReqObj));
+        }
+        else {
+            // error thrown if there are no order details (line items)
+            throw nlapiCreateError('NO_ORDER_DETAILS_IN_REQ', 'no order details in request');
+        }
+        
+        // call rb API to create sales order
+        var rbObject = new nsRbObject();
+    	responseObj = rbObject.rbCreateSalesOrder(rbReqObj);
+
+//NS QA START WORK-AROUND
+var soRec = nlapiLoadRecord('salesorder', responseObj.rbSalesOrder );
+nlapiSubmitRecord(soRec, true);
+//NS QA END
+    	
+	    nlapiLogExecution('audit', 'postRESTlet', 'successfully created so id');
+    }
+    catch(ex) {
+        responseObj = {
+            errorCode: ex.getCode(),
+            errorDetails: ex.getDetails()
+        };
+        nlapiLogExecution('debug', 'postRESTlet', 'response object: ' + JSON.stringify(responseObj));
+      nlapiLogExecution('debug', 'postRESTlet', 'rb exception: ' + ex);
+    }
+    
+    nlapiLogExecution('audit', 'postRESTlet', 'end' + ' [' + (new Date()).toLocaleString() + ']');
+	return responseObj;
+}

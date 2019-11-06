@@ -1,0 +1,56 @@
+<customlist scriptid="customlist_nsa_script_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NSA : Script Type</name>
+  <customvalues>
+    <customvalue scriptid="val_5151184_3431250_sb99_704">
+      <isinactive>F</isinactive>
+      <value>Scheduled</value>
+    </customvalue>
+    <customvalue scriptid="val_5151185_3431250_sb99_729">
+      <isinactive>F</isinactive>
+      <value>Client</value>
+    </customvalue>
+    <customvalue scriptid="val_5151186_3431250_sb99_653">
+      <isinactive>F</isinactive>
+      <value>Suitelet</value>
+    </customvalue>
+    <customvalue scriptid="val_5151187_3431250_sb99_797">
+      <isinactive>F</isinactive>
+      <value>User Event</value>
+    </customvalue>
+    <customvalue scriptid="val_5151188_3431250_sb99_642">
+      <isinactive>F</isinactive>
+      <value>RESTlet</value>
+    </customvalue>
+    <customvalue scriptid="val_5151189_3431250_sb99_409">
+      <isinactive>F</isinactive>
+      <value>Portlet</value>
+    </customvalue>
+    <customvalue scriptid="val_5151190_3431250_sb99_766">
+      <isinactive>F</isinactive>
+      <value>Mass Update</value>
+    </customvalue>
+    <customvalue scriptid="val_5151191_3431250_sb99_419">
+      <isinactive>F</isinactive>
+      <value>Workflow Action</value>
+    </customvalue>
+    <customvalue scriptid="val_5151192_3431250_sb99_466">
+      <isinactive>F</isinactive>
+      <value>Bundle Installation</value>
+    </customvalue>
+    <customvalue scriptid="val_5151193_3431250_sb99_936">
+      <isinactive>F</isinactive>
+      <value>Map/Reduce</value>
+    </customvalue>
+    <customvalue scriptid="val_5151194_3431250_sb99_683">
+      <isinactive>F</isinactive>
+      <value>Plugin</value>
+    </customvalue>
+    <customvalue scriptid="val_5151195_3431250_sb99_890">
+      <isinactive>F</isinactive>
+      <value>Library</value>
+    </customvalue>
+  </customvalues>
+</customlist>

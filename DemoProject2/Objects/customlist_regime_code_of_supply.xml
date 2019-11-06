@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_regime_code_of_supply">
+  <description>This is a list of regime code of supply.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Regime Code of Supply</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>0 - Standard supply (all supplies with value over 10.000 CZK, except those with code 1 or 2)</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1 - § 89 - Special regime for travel service (markup of travel agencies, that is not subject of VAT)</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>2 - § 90 - Special regime for antiques (without VAT)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

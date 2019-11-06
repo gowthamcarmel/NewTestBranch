@@ -1,0 +1,32 @@
+<customlist scriptid="customlist45">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Project Constraint Priorities</name>
+  <customvalues>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Cost / 2. Time / 3. Quality</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Cost / 3. Quality / 3. Time</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Quality / 2 Cost / 3. Time</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Quality / 2. Time / 3. Cost</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Time / 2. Cost / 3. Quality</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1. Time / 2. Quality / 3. Cost</value>
+    </customvalue>
+  </customvalues>
+</customlist>

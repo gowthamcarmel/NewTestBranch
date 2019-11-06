@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_new_deal_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>New Deal Type</name>
+  <customvalues>
+    <customvalue scriptid="val_31097636_3431250_sb99_852">
+      <isinactive>F</isinactive>
+      <value>New Deal</value>
+    </customvalue>
+    <customvalue scriptid="val_31097637_3431250_sb99_872">
+      <isinactive>F</isinactive>
+      <value>Change Order</value>
+    </customvalue>
+  </customvalues>
+</customlist>

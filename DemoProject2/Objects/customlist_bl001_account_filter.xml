@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_bl001_account_filter">
+  <description>A list of options for the account filter on the Account Export tab of the Blackline Profile.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Account Filter</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Ignore</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Include</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Exclude</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>All Balance Sheet Accounts</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>All Assets</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>All Liabilities and Equity</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>All Income Statement Accounts</value>
+    </customvalue>
+  </customvalues>
+</customlist>

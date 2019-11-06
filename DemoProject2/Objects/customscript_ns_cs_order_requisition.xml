@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_ns_cs_order_requisition">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>[NS] CS Order Requisition</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Finastra_FRD-PTP-210_CS_OrderRequistion.js]</scriptfile>
+</clientscript>

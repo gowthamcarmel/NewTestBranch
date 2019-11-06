@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_pdf_output_status">
+  <description>Possible values of PDF Doc status.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>PDF Doc. Status List</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Created</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Failed</value>
+    </customvalue>
+  </customvalues>
+</customlist>

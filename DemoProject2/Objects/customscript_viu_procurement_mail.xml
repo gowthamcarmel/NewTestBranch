@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_viu_procurement_mail">
+  <defaultfunction>send_mail</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>VIU Procurement Mail</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/VIU_procurement_mail.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_viu_procurement_mail">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>[scriptid=customrecord_ven_inv_upload_form]</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

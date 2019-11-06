@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_fx_run_triangulation_cl">
+  <description>Client Support for Triangulation</description>
+  <fieldchangedfunction>fx_triangulation_fieldChanged</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>[NS] FX Rates: Run Triangulation CL</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>fx_triangulation_pageInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>fx_triangulation_saveRecord</saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 53245/Misys_FRD_R2R_001_FxRatesCL.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

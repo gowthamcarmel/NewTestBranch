@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_create_3pp_po_helper">
+  <description>A script triggered that is from the Create 3PP PO suitelet when Vendor is selected to filter the Misys Ref dropdown</description>
+  <fieldchangedfunction>fieldChanged_updateMisysRef</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>[NS] Create 3PP PO Helper</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteScripts/Misys_FRD-L2C-014_Create3PPPOHelper.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

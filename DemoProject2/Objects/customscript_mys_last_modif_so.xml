@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_mys_last_modif_so">
+  <defaultfunction>LastModified</defaultfunction>
+  <description>Last Modified Date Time</description>
+  <isinactive>F</isinactive>
+  <name>Last Modified SO</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>DATETIMETZ</returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/Last Modified SO.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_last_modif_so">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>SALESORDER</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

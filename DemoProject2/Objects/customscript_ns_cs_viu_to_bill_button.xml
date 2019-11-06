@@ -1,0 +1,10 @@
+<clientscript scriptid="customscript_ns_cs_viu_to_bill_button">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>[NS] CS VIU To Bill Button</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/Finastra_FRD-PTP-205_CS_VIU_BillButton.js]</scriptfile>
+</clientscript>

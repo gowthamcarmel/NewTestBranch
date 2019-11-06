@@ -1,0 +1,56 @@
+<customlist scriptid="customlist_prj_service_type">
+  <description>Project Service Type</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Project Service Type</name>
+  <customvalues>
+    <customvalue scriptid="val_32832317_3431250_sb99_867">
+      <isinactive>F</isinactive>
+      <value>New Implementation Fusion Blueprints</value>
+    </customvalue>
+    <customvalue scriptid="val_32832318_3431250_sb99_676">
+      <isinactive>F</isinactive>
+      <value>New Implementation NON Fusion Blueprints</value>
+    </customvalue>
+    <customvalue scriptid="val_32832319_3431250_sb99_487">
+      <isinactive>F</isinactive>
+      <value>Additional Module / Functionality Implementation</value>
+    </customvalue>
+    <customvalue scriptid="val_32832320_3431250_sb99_390">
+      <isinactive>F</isinactive>
+      <value>Customisation</value>
+    </customvalue>
+    <customvalue scriptid="val_32832321_3431250_sb99_396">
+      <isinactive>F</isinactive>
+      <value>Upgrade Non Fusion Advance Premium</value>
+    </customvalue>
+    <customvalue scriptid="val_32832322_3431250_sb99_385">
+      <isinactive>F</isinactive>
+      <value>Upgrade - Fusion Advance Premium</value>
+    </customvalue>
+    <customvalue scriptid="val_32832323_3431250_sb99_844">
+      <isinactive>F</isinactive>
+      <value>Staff Augmentation</value>
+    </customvalue>
+    <customvalue scriptid="val_32832324_3431250_sb99_755">
+      <isinactive>F</isinactive>
+      <value>Academy Training</value>
+    </customvalue>
+    <customvalue scriptid="val_32832325_3431250_sb99_251">
+      <isinactive>F</isinactive>
+      <value>Non Academy Training</value>
+    </customvalue>
+    <customvalue scriptid="val_32832326_3431250_sb99_367">
+      <isinactive>F</isinactive>
+      <value>Training Certification Product</value>
+    </customvalue>
+    <customvalue scriptid="val_32832327_3431250_sb99_291">
+      <isinactive>F</isinactive>
+      <value>Consultancy</value>
+    </customvalue>
+    <customvalue scriptid="val_32832328_3431250_sb99_209">
+      <isinactive>F</isinactive>
+      <value>PSS Extended Support</value>
+    </customvalue>
+  </customvalues>
+</customlist>

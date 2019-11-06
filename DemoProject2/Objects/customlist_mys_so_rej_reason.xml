@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_mys_so_rej_reason">
+  <description>Reasons for Rejecting Sales Order</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Sales Order Rejection Reason</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Duplicate Sales Order</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Further Information Required</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Details</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Value Quantity</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Billing Schedule</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Recognition Schedule</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,64 @@
+<customlist scriptid="customlist_bl_match_set_clone">
+  <description>Used to define which transaction columns are visible to the user in Blackline transaction matching</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Match Set Clone</name>
+  <customvalues>
+    <customvalue scriptid="val_4495412_3431250_325">
+      <isinactive>F</isinactive>
+      <value>750130 Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495413_3431250_279">
+      <isinactive>F</isinactive>
+      <value>750135 Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495414_3431250_331">
+      <isinactive>F</isinactive>
+      <value>800060-800090 Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495415_3431250_331">
+      <isinactive>F</isinactive>
+      <value>800075 Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495416_3431250_397">
+      <isinactive>F</isinactive>
+      <value>800100/800140/820100 Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495417_3431250_869">
+      <isinactive>F</isinactive>
+      <value>Accrual Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495418_3431250_339">
+      <isinactive>F</isinactive>
+      <value>AIDI Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495419_3431250_865">
+      <isinactive>F</isinactive>
+      <value>BRS: Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495420_3431250_953">
+      <isinactive>F</isinactive>
+      <value>BS Amortisation</value>
+    </customvalue>
+    <customvalue scriptid="val_4495421_3431250_199">
+      <isinactive>F</isinactive>
+      <value>BS General Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495422_3431250_692">
+      <isinactive>F</isinactive>
+      <value>GRNI Clone</value>
+    </customvalue>
+    <customvalue scriptid="val_4495423_3431250_995">
+      <isinactive>F</isinactive>
+      <value>N/A</value>
+    </customvalue>
+    <customvalue scriptid="val_4495424_3431250_972">
+      <isinactive>F</isinactive>
+      <value>None</value>
+    </customvalue>
+    <customvalue scriptid="val_4495425_3431250_357">
+      <isinactive>F</isinactive>
+      <value>VAT/Sales tax Clone</value>
+    </customvalue>
+  </customvalues>
+</customlist>

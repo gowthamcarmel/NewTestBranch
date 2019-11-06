@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_bl_risk_rating">
+  <description>Specifies the risk rating of the account</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>BL Risk Rating</name>
+  <customvalues>
+    <customvalue scriptid="val_4495436_3431250_602">
+      <isinactive>F</isinactive>
+      <value>Low</value>
+    </customvalue>
+    <customvalue scriptid="val_4495437_3431250_882">
+      <isinactive>F</isinactive>
+      <value>Medium</value>
+    </customvalue>
+    <customvalue scriptid="val_4495438_3431250_542">
+      <isinactive>F</isinactive>
+      <value>High</value>
+    </customvalue>
+  </customvalues>
+</customlist>

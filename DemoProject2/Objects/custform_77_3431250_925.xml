@@ -1,0 +1,944 @@
+<entryForm scriptid="custform_77_3431250_925" standard="STANDARDCUSTOMRECORD_BL001_NSCONNECTOR_STATUSFORM">
+  <name>Custom Blackline Connector Profile Form</name>
+  <recordType>[scriptid=customrecord_bl001_nsconnector_status]</recordType>
+  <inactive>F</inactive>
+  <preferred>T</preferred>
+  <storedWithRecord>F</storedWithRecord>
+  <mainFields>
+    <fieldGroup scriptid="fieldgroup_19_3431250_396">
+      <label>Identification</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>T</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>RECORDID</id>
+          <label>ID</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>NAME</id>
+          <label>Name</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>T</quickAdd>
+        </field>
+        <field>
+          <id>LASTMODIFIED</id>
+          <label>Last Modified</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>CREATED</id>
+          <label>Date Created</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>OWNER</id>
+          <label>Owner</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_20_3431250_396">
+      <label>Status</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>T</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_entity_export_status]</id>
+          <label>Entity Export Status</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_entitytype_download]</id>
+          <label>Download Entity Type Export File</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_entity_download]</id>
+          <label>Download Entity Export File</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_export_status]</id>
+          <label>Account Export Status</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_download]</id>
+          <label>Download Account Export File</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_multicurr_export_status]</id>
+          <label>Multi-Currency Export Status</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_multicurr_download]</id>
+          <label>Download Multi-Currency Export File</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>INLINETEXT</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </fieldGroup>
+    <defaultFieldGroup>
+      <fields position="MIDDLE">
+        <field>
+          <id>CUSTOMFORM</id>
+          <label>Custom Form</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>ISINACTIVE</id>
+          <label>Inactive</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+        <field>
+          <id>PARENT</id>
+          <label>Parent</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+          <quickAdd>F</quickAdd>
+        </field>
+      </fields>
+    </defaultFieldGroup>
+  </mainFields>
+  <tabs>
+    <tab>
+      <id>[scriptid=customrecord_bl001_nsconnector_status.tab_135_3431250_525]</id>
+      <label>Export Settings</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_25_3431250_396">
+          <label>Reporting Period</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_reportingperiod]</id>
+              <label>Reporting Period</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_period_start_date]</id>
+              <label>Custom Start Date</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_period_end_date]</id>
+              <label>Custom End Date</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_26_3431250_396">
+          <label>Roll-up Options</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_reporting_sub]</id>
+              <label>Reporting Parent for Currency Trans.</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_retained_earnings]</id>
+              <label>Retained Earnings Account</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_currencytrans_adj]</id>
+              <label>Currency Translation Adjustment Account</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_sub_filter]</id>
+              <label>Subsidiary Include List</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_28_3431250_396">
+          <label>Account Key Format</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_key_1]</id>
+              <label>Account Key Field #1</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_key_2]</id>
+              <label>Account Key Field #2</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_key_3]</id>
+              <label>Account Key Field #3</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_key_4]</id>
+              <label>Account Key Field #4</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_key_5]</id>
+              <label>Account Key Field #5</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subTab>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.tab_149_3431250_525]</id>
+          <label>Account Export</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <fieldGroup scriptid="fieldgroup_21_3431250_396">
+              <label>Main</label>
+              <visible>T</visible>
+              <showTitle>F</showTitle>
+              <singleColumn>T</singleColumn>
+              <fields position="MIDDLE">
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_list_filter]</id>
+                  <label>Account Include List</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_filter_options]</id>
+                  <label>Account List Filter</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_incl_or_excl]</id>
+                  <label>Include or Exclude Account List?</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_loc_filter]</id>
+                  <label>Location Include List</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl008_inc_excl_loc]</id>
+                  <label>Include or Exclude Location List</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_filename]</id>
+                  <label>Account Filename</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_standard_types]</id>
+                  <label>Use Standard Account Export Types</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+              </fields>
+            </fieldGroup>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subTab>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.tab_147_3431250_525]</id>
+          <label>Multi-Currency Export</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <fieldGroup scriptid="fieldgroup_23_3431250_396">
+              <label>Main</label>
+              <visible>T</visible>
+              <showTitle>F</showTitle>
+              <singleColumn>T</singleColumn>
+              <fields position="MIDDLE">
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_mc_asset_list_filter]</id>
+                  <label>Asset Account Include List</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_mc_liab_list_filter]</id>
+                  <label>Liability/Equity Account Include List</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_multicurr_filename]</id>
+                  <label>Multi-Currency Filename</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_datasource]</id>
+                  <label>Bind DataSource to Custom Saved SearchID</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+              </fields>
+            </fieldGroup>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subTab>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.tab_151_3431250_525]</id>
+          <label>Entity Type and Entity Export</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <fieldGroup scriptid="fieldgroup_24_3431250_396">
+              <label>Main</label>
+              <visible>T</visible>
+              <showTitle>F</showTitle>
+              <singleColumn>T</singleColumn>
+              <fields position="MIDDLE">
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_level_names]</id>
+                  <label>Account Key Field #1 Level Name(s)</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_entitytype_filename]</id>
+                  <label>Entity Type Filename</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_entity_filename]</id>
+                  <label>Entity Filename</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+              </fields>
+            </fieldGroup>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subTab>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.tab_148_3431250_525]</id>
+          <label>Saved Search Export</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <fieldGroup scriptid="fieldgroup_33_3431250_396">
+              <label>Settings</label>
+              <visible>T</visible>
+              <showTitle>F</showTitle>
+              <singleColumn>T</singleColumn>
+              <fields position="MIDDLE">
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_saved_search_id]</id>
+                  <label>Saved Search ScriptId</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_saved_search_headers]</id>
+                  <label>Output Column Headers</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+              </fields>
+            </fieldGroup>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+        <subTab>
+          <id>[scriptid=customrecord_bl001_nsconnector_status.tab_150_3431250_525]</id>
+          <label>General Settings</label>
+          <visible>T</visible>
+          <fieldGroups>
+            <fieldGroup scriptid="fieldgroup_32_3431250_396">
+              <label>General</label>
+              <visible>T</visible>
+              <showTitle>F</showTitle>
+              <singleColumn>T</singleColumn>
+              <fields position="MIDDLE">
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_emailto]</id>
+                  <label>Email Alert To</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_folder_name]</id>
+                  <label>Folder Name for Export Files</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_error_alerts_only]</id>
+                  <label>Error Alerts Only</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_account_curr_opt]</id>
+                  <label>Currency Export Option</label>
+                  <visible>F</visible>
+                  <mandatory>T</mandatory>
+                  <displayType>NORMAL</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+                <field>
+                  <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_profile_file_api_key]</id>
+                  <label>File API Key</label>
+                  <visible>T</visible>
+                  <mandatory>F</mandatory>
+                  <displayType>INLINETEXT</displayType>
+                  <columnBreak>F</columnBreak>
+                  <sameRowAsPrevious>F</sameRowAsPrevious>
+                  <quickAdd>F</quickAdd>
+                </field>
+              </fields>
+            </fieldGroup>
+            <defaultFieldGroup/>
+          </fieldGroups>
+          <subLists/>
+        </subTab>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_bl001_nsconnector_status.tab_136_3431250_525]</id>
+      <label>Scheduler</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_14_3431250_396">
+          <label>Profile Scheduler</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_enable_schedule]</id>
+              <label>Enable Schedule</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_next_run]</id>
+              <label>Next Run Date</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_15_3431250_396">
+          <label>Export Files</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_run_entity]</id>
+              <label>Entity Exports</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_run_account]</id>
+              <label>Account Export</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_run_multicurrency]</id>
+              <label>Multi-Currency Exports</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_16_3431250_396">
+          <label>Run On</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>F</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_monday]</id>
+              <label>Monday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_tuesday]</id>
+              <label>Tuesday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_wednesday]</id>
+              <label>Wednesday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_thursday]</id>
+              <label>Thursday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_friday]</id>
+              <label>Friday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_saturday]</id>
+              <label>Saturday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_sunday]</id>
+              <label>Sunday</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_17_3431250_396">
+          <label>Frequency</label>
+          <visible>T</visible>
+          <showTitle>F</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_frequency]</id>
+              <label>Frequency</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_18_3431250_396">
+          <label>Stop</label>
+          <visible>T</visible>
+          <showTitle>F</showTitle>
+          <singleColumn>F</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_stop]</id>
+              <label>Schedule Stop Date</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_bl001_nsconnector_status.custrecord_bl001_schedule_runtime]</id>
+              <label>Run Daily At Specific Time</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+              <quickAdd>F</quickAdd>
+            </field>
+          </fields>
+        </defaultFieldGroup>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_bl001_nsconnector_status.tab_137_3431250_525]</id>
+      <label>Export Log</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>RECORDCUSTOMSUBLIST50</id>
+          <label>Export Log</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>RECORDWORKFLOW</id>
+      <label>Workflow</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>RECORDACTIVEWORKFLOWS</id>
+          <label>Active Workflows</label>
+          <visible>T</visible>
+        </subList>
+        <subList>
+          <id>RECORDWORKFLOWHISTORY</id>
+          <label>Workflow History</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>RECORDCUSTOM</id>
+      <label>Custom</label>
+      <visible>F</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_bl001_nsconnector_exportlog.custrecord_bl001_config_parent]</id>
+          <label>Blackline Data Conn Export Logs</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>RECORDTRANSLATION</id>
+      <label>Translation</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>RECORDTRANSLATIONS</id>
+          <label>Translation</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+  </tabs>
+  <quickViewFields/>
+  <actionbar>
+    <buttons/>
+    <menu>
+      <menuitem>
+        <id>delete</id>
+        <label>Delete</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>makecopy</id>
+        <label>Make Copy</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>new</id>
+        <label>New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>print</id>
+        <label>Print</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitcopy</id>
+        <label>Save &amp; Copy</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitnew</id>
+        <label>Save &amp; New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitnext</id>
+        <label>Save &amp; Next</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitas</id>
+        <label>Save As</label>
+        <visible>T</visible>
+      </menuitem>
+    </menu>
+  </actionbar>
+  <editingInList>T</editingInList>
+</entryForm>

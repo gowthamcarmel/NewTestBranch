@@ -1,0 +1,76 @@
+<customlist scriptid="customlist_hold_billing_reason">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Hold Billing Reason</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Uplift Required</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Uplift Adjustment Required</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Subscription Re-Seed Required</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Inactivation Required</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hold Account</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hold Regional Finance</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hold Regional Sales</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Termination Adjustment</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Milestone Billing needed</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Contract Renewal Awaited</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Future Billing</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Subscription Issue</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Tax Code</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Entity Merger</value>
+    </customvalue>
+    <customvalue scriptid="val_14399663_3431250_644">
+      <isinactive>F</isinactive>
+      <value>Special handling/Complex customers</value>
+    </customvalue>
+    <customvalue scriptid="val_14399664_3431250_656">
+      <isinactive>F</isinactive>
+      <value>Bill during specific period</value>
+    </customvalue>
+    <customvalue scriptid="val_14399665_3431250_601">
+      <isinactive>F</isinactive>
+      <value>Arrears Billing</value>
+    </customvalue>
+  </customvalues>
+</customlist>

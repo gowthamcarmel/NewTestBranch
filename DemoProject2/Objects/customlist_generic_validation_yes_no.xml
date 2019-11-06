@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_generic_validation_yes_no">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Yes/No</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>No</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Yes</value>
+    </customvalue>
+  </customvalues>
+</customlist>

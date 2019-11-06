@@ -1,0 +1,40 @@
+<customlist scriptid="customlistvendor_req_rejection_reason">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Vendor Req. Rejection Reason</name>
+  <customvalues>
+    <customvalue scriptid="val_21722217_3431250_978">
+      <isinactive>F</isinactive>
+      <value>Further Information Required</value>
+    </customvalue>
+    <customvalue scriptid="val_21722218_3431250_775">
+      <isinactive>F</isinactive>
+      <value>Incorrect Value/Quantity</value>
+    </customvalue>
+    <customvalue scriptid="val_21722219_3431250_727">
+      <isinactive>F</isinactive>
+      <value>Classification (Coding) Section Incorrect</value>
+    </customvalue>
+    <customvalue scriptid="val_21722220_3431250_815">
+      <isinactive>F</isinactive>
+      <value>Incorrect Item</value>
+    </customvalue>
+    <customvalue scriptid="val_21722221_3431250_292">
+      <isinactive>F</isinactive>
+      <value>Not Required</value>
+    </customvalue>
+    <customvalue scriptid="val_21722222_3431250_975">
+      <isinactive>F</isinactive>
+      <value>Resubmit: Based on Procurement Advice</value>
+    </customvalue>
+    <customvalue scriptid="val_21722223_3431250_220">
+      <isinactive>F</isinactive>
+      <value>Supporting Documentation Missing</value>
+    </customvalue>
+    <customvalue scriptid="val_21722224_3431250_283">
+      <isinactive>F</isinactive>
+      <value>User Request</value>
+    </customvalue>
+  </customvalues>
+</customlist>

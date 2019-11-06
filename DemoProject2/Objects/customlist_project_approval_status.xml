@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_project_approval_status">
+  <description>Project Approval Status</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Project Approval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_32753695_3431250_sb99_418">
+      <isinactive>F</isinactive>
+      <value>Submit for Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_32753696_3431250_sb99_555">
+      <isinactive>F</isinactive>
+      <value>Pending Supervisor Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_32753697_3431250_sb99_195">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_32753698_3431250_sb99_815">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+  </customvalues>
+</customlist>

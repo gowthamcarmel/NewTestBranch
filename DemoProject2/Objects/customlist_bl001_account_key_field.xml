@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_bl001_account_key_field">
+  <description>The list of fields for the Account export that can be used for the key.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Account Key Fields</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Leave Position Empty</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Subsidiary</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Department</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Location</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Class</value>
+    </customvalue>
+  </customvalues>
+</customlist>

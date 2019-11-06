@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_one_status_code">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>ONE: Status Code</name>
+  <customvalues>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>GREEN</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>YELLOW</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>RED</value>
+    </customvalue>
+  </customvalues>
+</customlist>

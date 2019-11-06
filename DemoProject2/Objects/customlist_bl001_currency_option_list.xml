@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_bl001_currency_option_list">
+  <description>The options for handling currency in the account export</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Currency Options</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Omit Bank Currency</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Bank</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Multi-Currency</value>
+    </customvalue>
+  </customvalues>
+</customlist>

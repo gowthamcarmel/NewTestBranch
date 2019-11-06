@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_wtax_available_on">
+  <description></description>
+  <isinactive>T</isinactive>
+  <isordered>F</isordered>
+  <name>WTax - Available On</name>
+  <customvalues>
+    <customvalue scriptid="val_51111_3776699_373">
+      <isinactive>F</isinactive>
+      <value>Purchase transactions</value>
+    </customvalue>
+    <customvalue scriptid="val_51110_3776699_121">
+      <isinactive>F</isinactive>
+      <value>Sales transactions</value>
+    </customvalue>
+  </customvalues>
+</customlist>

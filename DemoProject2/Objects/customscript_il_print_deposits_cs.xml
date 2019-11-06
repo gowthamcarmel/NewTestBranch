@@ -1,0 +1,25 @@
+<clientscript scriptid="customscript_il_print_deposits_cs">
+  <description></description>
+  <fieldchangedfunction>depositPrint_FieldChanged</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>IL Print Deposits List CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>depositPrint_pageInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_CS_Deposit_Form.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_Common.js]</scriptfile>
+    </library>
+  </libraries>
+</clientscript>

@@ -1,0 +1,576 @@
+<customlist scriptid="customlist578">
+  <description>Cognos Mapping for Facilities</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Cognos Location</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Central Other</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Brazil : Sao Paulo</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Colombia : Bogota</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Mexico City, Sierra Candela</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Ontario</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>US : NY 1180</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>US : NY White Plains</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Australia : Sydney</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>China : Beijing UBP</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hong Kong : Hong Kong office</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>China : Shanghai</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Indonesia : Jakarta</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Japan : Tokyo</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>South Korea : Seoul</value>
+    </customvalue>
+    <customvalue scriptid="value_15_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Malaysia : Kuala Lumpur</value>
+    </customvalue>
+    <customvalue scriptid="value_16_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Philippines : Manila</value>
+    </customvalue>
+    <customvalue scriptid="value_17_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Singapore: Singapore Office</value>
+    </customvalue>
+    <customvalue scriptid="value_18_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Singapore : Springleaf</value>
+    </customvalue>
+    <customvalue scriptid="value_19_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Taiwan : Taipei, 101 Tower</value>
+    </customvalue>
+    <customvalue scriptid="value_20_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Thailand : Bangkok</value>
+    </customvalue>
+    <customvalue scriptid="value_21_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Vietnam : Hanoi</value>
+    </customvalue>
+    <customvalue scriptid="value_22_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Austria : Vienna</value>
+    </customvalue>
+    <customvalue scriptid="value_23_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Belgium : Brussels</value>
+    </customvalue>
+    <customvalue scriptid="value_24_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Czech Republic : Prague</value>
+    </customvalue>
+    <customvalue scriptid="value_25_3431250_417">
+      <isinactive>F</isinactive>
+      <value>France : Paris, Washington Plaza</value>
+    </customvalue>
+    <customvalue scriptid="value_26_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Germany : Frankfurt</value>
+    </customvalue>
+    <customvalue scriptid="value_27_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Greece : Athens</value>
+    </customvalue>
+    <customvalue scriptid="value_28_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hungary : Budapest</value>
+    </customvalue>
+    <customvalue scriptid="value_29_3431250_417">
+      <isinactive>F</isinactive>
+      <value>India : EGL</value>
+    </customvalue>
+    <customvalue scriptid="value_30_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Ireland : Dublin, Block G</value>
+    </customvalue>
+    <customvalue scriptid="value_31_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Israel : Tel Aviv</value>
+    </customvalue>
+    <customvalue scriptid="value_32_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Italy : Milan</value>
+    </customvalue>
+    <customvalue scriptid="value_33_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Luxembourg : Luxembourg office</value>
+    </customvalue>
+    <customvalue scriptid="value_34_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Morocco : Casablanca, Zerkouni</value>
+    </customvalue>
+    <customvalue scriptid="value_35_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Netherlands : Amsterdam</value>
+    </customvalue>
+    <customvalue scriptid="value_36_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Norway : Oslo</value>
+    </customvalue>
+    <customvalue scriptid="value_37_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Poland: Gdynia</value>
+    </customvalue>
+    <customvalue scriptid="value_38_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Portugal : Lisbon</value>
+    </customvalue>
+    <customvalue scriptid="value_39_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Romania : Bucharest</value>
+    </customvalue>
+    <customvalue scriptid="value_40_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Russia : Moscow</value>
+    </customvalue>
+    <customvalue scriptid="value_41_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Saudi Arabia : Riyadh</value>
+    </customvalue>
+    <customvalue scriptid="value_42_3431250_417">
+      <isinactive>F</isinactive>
+      <value>South Africa : Johannesburg</value>
+    </customvalue>
+    <customvalue scriptid="value_43_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Spain : Madrid, Spinola</value>
+    </customvalue>
+    <customvalue scriptid="value_44_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Sweden : Stockholm</value>
+    </customvalue>
+    <customvalue scriptid="value_45_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Zurich</value>
+    </customvalue>
+    <customvalue scriptid="value_46_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Turkey : Istanbul</value>
+    </customvalue>
+    <customvalue scriptid="value_47_3431250_417">
+      <isinactive>F</isinactive>
+      <value>UAE : Dubai</value>
+    </customvalue>
+    <customvalue scriptid="value_48_3431250_417">
+      <isinactive>F</isinactive>
+      <value>UK : Paddington</value>
+    </customvalue>
+    <customvalue scriptid="value_49_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Ireland : Dublin, Blocks J, K &amp; L</value>
+    </customvalue>
+    <customvalue scriptid="value_50_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Germany : Dusseldorf</value>
+    </customvalue>
+    <customvalue scriptid="value_51_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Germany : Hamburg</value>
+    </customvalue>
+    <customvalue scriptid="value_52_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Germany : Munich</value>
+    </customvalue>
+    <customvalue scriptid="value_53_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Slovakia : Bratislava</value>
+    </customvalue>
+    <customvalue scriptid="value_54_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Geneva</value>
+    </customvalue>
+    <customvalue scriptid="value_55_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Bahrain : Manama</value>
+    </customvalue>
+    <customvalue scriptid="value_56_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Egypt : Cairo</value>
+    </customvalue>
+    <customvalue scriptid="value_57_3431250_417">
+      <isinactive>F</isinactive>
+      <value>India : Bangalore</value>
+    </customvalue>
+    <customvalue scriptid="value_58_3431250_417">
+      <isinactive>F</isinactive>
+      <value>India : Mumbai</value>
+    </customvalue>
+    <customvalue scriptid="value_59_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Kenya : Nairobi</value>
+    </customvalue>
+    <customvalue scriptid="value_60_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Lebanon : Beirut</value>
+    </customvalue>
+    <customvalue scriptid="value_101_3431250_417">
+      <isinactive>F</isinactive>
+      <value>US : Texas</value>
+    </customvalue>
+    <customvalue scriptid="value_102_3431250_417">
+      <isinactive>F</isinactive>
+      <value>US : NY Madison</value>
+    </customvalue>
+    <customvalue scriptid="value_103_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Nigeria : Lagos</value>
+    </customvalue>
+    <customvalue scriptid="value_104_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hungary : Miskolc</value>
+    </customvalue>
+    <customvalue scriptid="val_12735405_3431250_623">
+      <isinactive>F</isinactive>
+      <value>Australia : Brisbane</value>
+    </customvalue>
+    <customvalue scriptid="val_12735406_3431250_141">
+      <isinactive>F</isinactive>
+      <value>Poland : Krakow</value>
+    </customvalue>
+    <customvalue scriptid="val_12735407_3431250_863">
+      <isinactive>F</isinactive>
+      <value>Poland : Warsaw</value>
+    </customvalue>
+    <customvalue scriptid="val_12735408_3431250_383">
+      <isinactive>F</isinactive>
+      <value>Italy : Rome</value>
+    </customvalue>
+    <customvalue scriptid="val_17526108_3431250_967">
+      <isinactive>F</isinactive>
+      <value>Mexico : Mexico City, Ensenada</value>
+    </customvalue>
+    <customvalue scriptid="val_17526109_3431250_259">
+      <isinactive>F</isinactive>
+      <value>Canada : Burlington ON Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526110_3431250_959">
+      <isinactive>F</isinactive>
+      <value>Canada : Burnaby BC Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526111_3431250_325">
+      <isinactive>F</isinactive>
+      <value>Canada : London ON Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526112_3431250_775">
+      <isinactive>F</isinactive>
+      <value>Canada : London Ontario</value>
+    </customvalue>
+    <customvalue scriptid="val_17526113_3431250_662">
+      <isinactive>F</isinactive>
+      <value>Canada : Longueuil</value>
+    </customvalue>
+    <customvalue scriptid="val_17526114_3431250_166">
+      <isinactive>F</isinactive>
+      <value>Canada : Markham</value>
+    </customvalue>
+    <customvalue scriptid="val_17526115_3431250_918">
+      <isinactive>F</isinactive>
+      <value>Canada : Mississauga RSP</value>
+    </customvalue>
+    <customvalue scriptid="val_17526116_3431250_426">
+      <isinactive>F</isinactive>
+      <value>Canada : Mississauga RSP Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526117_3431250_413">
+      <isinactive>F</isinactive>
+      <value>Canada : Mississauga Standish</value>
+    </customvalue>
+    <customvalue scriptid="val_17526118_3431250_461">
+      <isinactive>F</isinactive>
+      <value>Canada : Montreal</value>
+    </customvalue>
+    <customvalue scriptid="val_17526119_3431250_908">
+      <isinactive>F</isinactive>
+      <value>Canada : Pickering</value>
+    </customvalue>
+    <customvalue scriptid="val_17526120_3431250_861">
+      <isinactive>F</isinactive>
+      <value>Canada : Toronto Bremner</value>
+    </customvalue>
+    <customvalue scriptid="val_17526121_3431250_526">
+      <isinactive>F</isinactive>
+      <value>Canada : Toronto Horner Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526122_3431250_486">
+      <isinactive>F</isinactive>
+      <value>Canada : Toronto Laird Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526123_3431250_753">
+      <isinactive>F</isinactive>
+      <value>Canada : Toronto Pullman Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526124_3431250_978">
+      <isinactive>F</isinactive>
+      <value>Canada : Toronto Yonge</value>
+    </customvalue>
+    <customvalue scriptid="val_17526125_3431250_586">
+      <isinactive>F</isinactive>
+      <value>US : Atlanta</value>
+    </customvalue>
+    <customvalue scriptid="val_17526126_3431250_981">
+      <isinactive>F</isinactive>
+      <value>US : Atlanta (Smyrna) Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526127_3431250_469">
+      <isinactive>F</isinactive>
+      <value>US : Aurora Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526128_3431250_364">
+      <isinactive>F</isinactive>
+      <value>US : Brookfield Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526129_3431250_887">
+      <isinactive>F</isinactive>
+      <value>US : Burlington</value>
+    </customvalue>
+    <customvalue scriptid="val_17526130_3431250_379">
+      <isinactive>F</isinactive>
+      <value>US : Cincinnati</value>
+    </customvalue>
+    <customvalue scriptid="val_17526131_3431250_178">
+      <isinactive>F</isinactive>
+      <value>US : Clive (Des Moines)</value>
+    </customvalue>
+    <customvalue scriptid="val_17526132_3431250_355">
+      <isinactive>F</isinactive>
+      <value>US : Clive (Des Moines) Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526133_3431250_557">
+      <isinactive>F</isinactive>
+      <value>US : Costa Mesa</value>
+    </customvalue>
+    <customvalue scriptid="val_17526134_3431250_899">
+      <isinactive>F</isinactive>
+      <value>US : Englewood</value>
+    </customvalue>
+    <customvalue scriptid="val_17526135_3431250_629">
+      <isinactive>F</isinactive>
+      <value>US : Englewood Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526136_3431250_789">
+      <isinactive>F</isinactive>
+      <value>US : Fargo</value>
+    </customvalue>
+    <customvalue scriptid="val_17526137_3431250_930">
+      <isinactive>F</isinactive>
+      <value>US : Grand Rapids</value>
+    </customvalue>
+    <customvalue scriptid="val_17526138_3431250_872">
+      <isinactive>F</isinactive>
+      <value>US : Herndon  (Sterling) Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526139_3431250_663">
+      <isinactive>F</isinactive>
+      <value>US : Honolulu Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526140_3431250_918">
+      <isinactive>F</isinactive>
+      <value>US : Honolulu Data Centre (DR)</value>
+    </customvalue>
+    <customvalue scriptid="val_17526141_3431250_698">
+      <isinactive>F</isinactive>
+      <value>US : Irving</value>
+    </customvalue>
+    <customvalue scriptid="val_17526142_3431250_394">
+      <isinactive>F</isinactive>
+      <value>US : Lake Mary</value>
+    </customvalue>
+    <customvalue scriptid="val_17526143_3431250_722">
+      <isinactive>F</isinactive>
+      <value>US : Las Vegas Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526144_3431250_619">
+      <isinactive>F</isinactive>
+      <value>US : Lombard</value>
+    </customvalue>
+    <customvalue scriptid="val_17526145_3431250_189">
+      <isinactive>F</isinactive>
+      <value>US : Madison Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526146_3431250_288">
+      <isinactive>F</isinactive>
+      <value>US : Mequon</value>
+    </customvalue>
+    <customvalue scriptid="val_17526147_3431250_444">
+      <isinactive>F</isinactive>
+      <value>US : Miamisburg (Dayton)</value>
+    </customvalue>
+    <customvalue scriptid="val_17526148_3431250_700">
+      <isinactive>F</isinactive>
+      <value>US : Norcross</value>
+    </customvalue>
+    <customvalue scriptid="val_17526149_3431250_705">
+      <isinactive>F</isinactive>
+      <value>US : NY Broadway</value>
+    </customvalue>
+    <customvalue scriptid="val_17526150_3431250_526">
+      <isinactive>F</isinactive>
+      <value>US : Orlando</value>
+    </customvalue>
+    <customvalue scriptid="val_17526151_3431250_382">
+      <isinactive>F</isinactive>
+      <value>US : Portland</value>
+    </customvalue>
+    <customvalue scriptid="val_17526152_3431250_828">
+      <isinactive>F</isinactive>
+      <value>US : Richardson Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526153_3431250_790">
+      <isinactive>F</isinactive>
+      <value>US : Salt Lake City</value>
+    </customvalue>
+    <customvalue scriptid="val_17526154_3431250_376">
+      <isinactive>F</isinactive>
+      <value>US : Salt Lake City Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526155_3431250_913">
+      <isinactive>F</isinactive>
+      <value>US : San Francisco</value>
+    </customvalue>
+    <customvalue scriptid="val_17526156_3431250_495">
+      <isinactive>F</isinactive>
+      <value>Australia : Melbourne</value>
+    </customvalue>
+    <customvalue scriptid="val_17526157_3431250_885">
+      <isinactive>F</isinactive>
+      <value>Singapore : Singapore, Church St</value>
+    </customvalue>
+    <customvalue scriptid="val_17526158_3431250_657">
+      <isinactive>F</isinactive>
+      <value>Germany : Frankfurt, Bettinastrasse</value>
+    </customvalue>
+    <customvalue scriptid="val_17526159_3431250_268">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Baden</value>
+    </customvalue>
+    <customvalue scriptid="val_17526160_3431250_561">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Crissier Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526161_3431250_292">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Geneva (Chemin des Aulx)</value>
+    </customvalue>
+    <customvalue scriptid="val_17526162_3431250_582">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Geneva Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526163_3431250_323">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Schlieren Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526164_3431250_717">
+      <isinactive>F</isinactive>
+      <value>Switzerland : Zurich Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526165_3431250_859">
+      <isinactive>F</isinactive>
+      <value>Israel : Herzliya</value>
+    </customvalue>
+    <customvalue scriptid="val_17526166_3431250_855">
+      <isinactive>F</isinactive>
+      <value>Israel : Herzliya (Maskit Building)</value>
+    </customvalue>
+    <customvalue scriptid="val_17526167_3431250_564">
+      <isinactive>F</isinactive>
+      <value>UK : Bangor</value>
+    </customvalue>
+    <customvalue scriptid="val_17526168_3431250_592">
+      <isinactive>F</isinactive>
+      <value>UK : Bevis Marks, London</value>
+    </customvalue>
+    <customvalue scriptid="val_17526169_3431250_939">
+      <isinactive>F</isinactive>
+      <value>UK : London Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526170_3431250_581">
+      <isinactive>F</isinactive>
+      <value>UK : Manchester Data Centre 1</value>
+    </customvalue>
+    <customvalue scriptid="val_17526171_3431250_345">
+      <isinactive>F</isinactive>
+      <value>UK : Manchester Data Centre 2</value>
+    </customvalue>
+    <customvalue scriptid="val_17526172_3431250_111">
+      <isinactive>F</isinactive>
+      <value>UK : Nottingham</value>
+    </customvalue>
+    <customvalue scriptid="val_17526173_3431250_756">
+      <isinactive>F</isinactive>
+      <value>UK : Nottingham Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526174_3431250_630">
+      <isinactive>F</isinactive>
+      <value>UK : Paddington 4KS</value>
+    </customvalue>
+    <customvalue scriptid="val_17526175_3431250_480">
+      <isinactive>F</isinactive>
+      <value>Belgium : Brussels Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_17526176_3431250_615">
+      <isinactive>F</isinactive>
+      <value>India : Pune</value>
+    </customvalue>
+    <customvalue scriptid="val_17526177_3431250_674">
+      <isinactive>F</isinactive>
+      <value>India : Trivandrum</value>
+    </customvalue>
+    <customvalue scriptid="val_17526178_3431250_197">
+      <isinactive>F</isinactive>
+      <value>South Africa : Johannesburg, Princess of Wales</value>
+    </customvalue>
+    <customvalue scriptid="val_21684181_3431250_953">
+      <isinactive>F</isinactive>
+      <value>US : Secaucus Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_23486533_3431250_570">
+      <isinactive>F</isinactive>
+      <value>US : Nashville Data Centre</value>
+    </customvalue>
+    <customvalue scriptid="val_23486546_3431250_653">
+      <isinactive>F</isinactive>
+      <value>US : Philadelphia Data Centre</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,16 @@
+<customlist scriptid="customlist123">
+  <description>List of Products</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Product</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>HP Inkjet Printer</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>HP Inkjet Printer Service</value>
+    </customvalue>
+  </customvalues>
+</customlist>

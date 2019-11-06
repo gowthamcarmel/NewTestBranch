@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_ic_allocation_grouping">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IC Allocation Grouping Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Per Transaction</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Per Period</value>
+    </customvalue>
+  </customvalues>
+</customlist>

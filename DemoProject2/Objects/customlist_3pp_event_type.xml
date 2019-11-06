@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_3pp_event_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>3PP Event Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ILF</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>RLF</value>
+    </customvalue>
+  </customvalues>
+</customlist>

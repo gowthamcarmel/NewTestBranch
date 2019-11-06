@@ -1,0 +1,142 @@
+/*
+ * Module Description
+ * 
+ * Version    Date            Author           Remarks
+ * 1.00       08 Aug 2014     alaurito
+ *
+ **************************************
+ * 
+ * Instructions to create UE script:
+ * - Create new script > User Event
+ * - Script File: API_UserEvent_v2.js (this file's name)
+ * - Function: userEventBeforeSubmit
+ * - Applies to: Sales Order
+ *
+ **************************************
+ *
+ * The recordType (internal id) corresponds to the "Applied To" record in your script deployment. 
+ * @appliedtorecord recordType
+ * 
+ * @param {String} type Operation types: create, edit, delete, xedit
+ *                      approve, reject, cancel (SO, ER, Time Bill, PO & RMA only)
+ *                      pack, ship (IF)
+ *                      markcomplete (Call, Task)
+ *                      reassign (Case)
+ *                      editforecast (Opp, Estimate)
+ * @returns {Void}
+ *
+ **************************************
+ * Change Order 8285    eolaguir        Fix for tax RLF orders tax issue
+ *                      eolaguir        Additional fields mapped for FRD14
+ * 
+ * 
+ * 
+ */
+
+
+function userEventBeforeSubmit(type){
+    //if ((type == 'create' || type == 'update') && nlapiGetContext().getExecutionContext() == 'suitelet') {  // suitelet is for restlet call
+    if (type == 'create')  {
+        var externalId = nlapiGetFieldValue('externalid');
+        //var externalId = '1RBTESTABC1';
+        nlapiLogExecution('debug', 'userEventBeforeSubmit', 'externalId: ' + externalId);
+        if (!!externalId) {
+   nlapiLogExecution('debug', 'here we go, doing something.');
+            // TODO: change custom fields to set for header and line items here
+            var customBodyFieldIds = ["custbody_docmemo", "custbodycustbody_cashaccounting", "custbody_transactioncategory", "custbody_invoice_credit_body",
+                                      "custbody_billing_contact", "custbody_misysref", "custbody_contractno", "custbody_contractdate", "custbody_porequired", 
+                                      "custbody_packagecompleted", "custbody_mys_tax_combo_chck", "custbody_delivery_address", "custbody_misys_migrate_start_date", "trandate",
+                                      "startdate", "otherrefnum", "memo", "partner", "location", "terms", "currency", "shipaddresslist", "billaddresslist", "custbody_sb_start_type", 
+                                      "custbody_sb_subscription_option", "custbody_sb_subscription_sales_order", "custbody_sb_fixed_billing_date_so","custbody_sb_timezone", 
+                                      "custbody_sb_billing_transaction", "custbody_exportedfromsfdc", "custbody_syncedtosfdc", "custbody_is_rlf", "custbody_sfdc_billing_group", "custbody_contract_id", "custbody_sfdc_billing_group_id", "custbody_opportunity_id", "custbody_reset_next_bill_date", "custbody_bg_next_invoice_due_date", "custbody_opportunity_owner_ns_id","custbody_department_internal_id","custbody_class_internal_id", "custbody_misyssalestype", "custbody_license_band_quantity"];
+
+
+
+
+            var customLineFieldIds = ["custcol_create_3pp_po", "custcol_3pp_rate", "custcol_3pp_rate_currency", "custcol_vendor_billing_schedule_3pp",
+                                      "custcol_3pp_disc_percent", "custcol_3pp_vendor_bsch_trigger", "custcol_licence_basis", "custcol_sb_start_date", "rate", "taxcode",
+                                      "custcol_planned_billing_startdate", "custcol_rb_start_trigger", "custcol_sb_item_start_type", "rate", "vsoeprice", "custcol_sfdc_soi_id", "custcol_exported_from_sfdc", "custcol_sfdc_contract_asset_id", "custcol_3pp_asset_environ", "custcol_3pp_asset_location", "custcol_3pp_legacy_ref", "custcol_ssi_earliest_uplift_rev_date", "custcol_msys_nxtpaydate", "custcol_license_band_quantity", "custcol_vsoeallocation", "custcol_arm_fair_value2", "custcol_arm_vsoedelivered", "custcol_arm_start_date", "custcol_arm_end_date", "custcol_revrecsched"];
+            
+            // search for the api json record
+
+
+
+
+//var tempExt = 'TESTTESTTEX';
+        var theFilters = new Array();
+        theFilters.push(new nlobjSearchFilter('externalid', null, 'anyof', externalId));
+//      theFilters.push(new nlobjSearchFilter('externalid', null, 'is', tempExt));
+
+
+
+
+nlapiLogExecution('debug', 'about to search based on external id = ', externalId);
+
+
+
+
+            var apiJsonSearchRes = nlapiSearchRecord('customrecordcust_misys_sorec', null, theFilters); 
+
+
+
+
+nlapiLogExecution('debug', 'done searching = ', apiJsonSearchRes);
+
+
+
+
+
+
+
+
+            //nlapiLogExecution('debug', 'userEventBeforeSubmit', 'apiJsonSearchRes: ' + apiJsonSearchRes);
+            // load the api json record - need load because lookup truncates long text
+            if (apiJsonSearchRes) {
+nlapiLogExecution('debug', 'and now we retrieved the json string', apiJsonSearchRes[0].getId());
+                var apiJsonRec = nlapiLoadRecord('customrecordcust_misys_sorec', apiJsonSearchRes[0].getId()); 
+                //nlapiLogExecution('debug', 'userEventBeforeSubmit', 'apiJsonRec: ' + apiJsonRec);
+                var apiJsonReq = JSON.parse(apiJsonRec.getFieldValue('custrecordmisys_json_request_string'));
+                nlapiLogExecution('debug', 'userEventBeforeSubmit', 'apiJsonReq: ' + JSON.stringify(apiJsonReq));
+                
+                // set body fields
+                for (var i = 0; i < customBodyFieldIds.length; i++) {
+                    var custBodyField = customBodyFieldIds[i];
+                    nlapiLogExecution('debug', 'userEventBeforeSubmit', 'custBodyField: ' + custBodyField);
+                    //nlapiLogExecution('debug', 'userEventBeforeSubmit', 'apiJsonReq[custBodyField]: ' + apiJsonReq[custBodyField]);
+                    if (apiJsonReq[custBodyField]) {
+                        nlapiLogExecution('debug', 'userEventBeforeSubmit', 'apiJsonReq[custBodyField]: ' + apiJsonReq[custBodyField]);
+                        nlapiSetFieldValue(custBodyField, apiJsonReq[custBodyField]);
+                        nlapiLogExecution('debug', 'userEventBeforeSubmit', 'nlapiGetFieldValue(custBodyField): ' + nlapiGetFieldValue(custBodyField));                        
+                    }
+                }
+                
+                // set line item fields
+                // this assumes that the lines added in the s.o. correspond to the order of the items in the request, otherwise none will be set
+                var lineItemCount = nlapiGetLineItemCount('item');
+                if (lineItemCount == apiJsonReq.rbOrderDetails.length) {
+                    for (var i = 0; i < apiJsonReq.rbOrderDetails.length; i++) {
+                        nlapiSelectLineItem('item', i + 1);
+                        for (var j = 0; j < customLineFieldIds.length; j++) {
+                            var custLineField = customLineFieldIds[j];
+                            nlapiLogExecution('debug', 'userEventBeforeSubmit', 'custLineField: ' + custLineField);
+                            var custLineFieldValue = apiJsonReq.rbOrderDetails[i][custLineField];
+                            nlapiLogExecution('debug', 'userEventBeforeSubmit', 'custLineFieldValue: ' + custLineFieldValue);
+                            if (custLineFieldValue) {
+                                nlapiSetCurrentLineItemValue('item', custLineField, custLineFieldValue);
+                                nlapiLogExecution('debug', 'userEventBeforeSubmit', 'nlapiGetCurrentLineItemValue(custLineField): ' + nlapiGetCurrentLineItemValue('item', custLineField));
+                            }
+                        }
+                        //var x = nlapiGetCurrentLineItemValue ('item', 'taxcode'); // 8285
+                        //nlapiSetCurrentLineItemValue('item', 'taxcode',x);    // 8285
+
+                        nlapiCommitLineItem('item');
+                    }
+                }
+                nlapiLogExecution('audit', 'userEventBeforeSubmit', 'successfully set custom fields for so');
+                
+                // approve s.o. to create subscription
+                //nlapiSetFieldValue('orderstatus', 'B');  // optional if they want mass approval                
+            }
+        }
+    }
+}

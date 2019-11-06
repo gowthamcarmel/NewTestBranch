@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_newdeal_approvals">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NewDeal Approvals</name>
+  <customvalues>
+    <customvalue scriptid="val_31160856_3431250_sb99_662">
+      <isinactive>F</isinactive>
+      <value>Submit for Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_31160857_3431250_sb99_340">
+      <isinactive>F</isinactive>
+      <value>Pending Approval - CAT</value>
+    </customvalue>
+    <customvalue scriptid="val_31160858_3431250_sb99_335">
+      <isinactive>F</isinactive>
+      <value>Pending Approval - GS</value>
+    </customvalue>
+    <customvalue scriptid="val_31160859_3431250_sb99_687">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_31160860_3431250_sb99_836">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_32318538_3431250_sb99_897">
+      <isinactive>F</isinactive>
+      <value>Draft</value>
+    </customvalue>
+    <customvalue scriptid="val_32539195_3431250_sb99_311">
+      <isinactive>F</isinactive>
+      <value>Pending Approval - Revenue</value>
+    </customvalue>
+  </customvalues>
+</customlist>

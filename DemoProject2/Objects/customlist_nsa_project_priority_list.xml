@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_nsa_project_priority_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NSA : Project Priority List</name>
+  <customvalues>
+    <customvalue scriptid="val_5727244_3431250_sb99_418">
+      <isinactive>F</isinactive>
+      <value>P1 (Highest Priority)</value>
+    </customvalue>
+    <customvalue scriptid="val_5727245_3431250_sb99_955">
+      <isinactive>F</isinactive>
+      <value>P2 (Medium Priority)</value>
+    </customvalue>
+    <customvalue scriptid="val_5727246_3431250_sb99_426">
+      <isinactive>F</isinactive>
+      <value>P3 (Low Priority)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

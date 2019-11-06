@@ -1,0 +1,28 @@
+/**
+ * Module Description
+ * 
+ * Version    Date            Author           Remarks
+ * 1.00       18 Aug 2017     Santhosh Kumar
+ *
+ */
+
+/**
+ * @returns {Void} Any or no return value
+ */
+function Schedule_Item_creation_OnApproval() {
+	
+	var context = nlapiGetContext();
+	nlapiLogExecution('DEBUG', 'Context: ', context.getEnvironment());
+	
+	var recId = nlapiGetRecordId();
+	
+	var params = {
+			custscript_item_req_id: recId
+		 	};
+	
+	var result = nlapiScheduleScript('customscript_item_creation_schedulereq', null,params);
+	nlapiLogExecution('DEBUG', 'Status: ', result);
+	nlapiLogExecution('DEBUG', 'Params ', params['custscript_item_req_id']);
+
+	return true;
+}

@@ -1,0 +1,11 @@
+<emailtemplate scriptid="custemailtmpl_6_3431250_943">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Cover note for 3rd Party Royalty Notifications. Template is merged against Vendor and Vendor Contact records.</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <name>[NS] Demo 3rd Party Notification</name>
+  <recordtype></recordtype>
+  <subject></subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

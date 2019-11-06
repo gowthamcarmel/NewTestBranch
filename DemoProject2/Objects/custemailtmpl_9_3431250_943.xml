@@ -1,0 +1,11 @@
+<emailtemplate scriptid="custemailtmpl_9_3431250_943">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description>Vendor Notification after PO approval</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <name>Vendor Notification after PO approval</name>
+  <recordtype>TRANSACTION</recordtype>
+  <subject>Misys : Purchase Order #${transaction.tranId}</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

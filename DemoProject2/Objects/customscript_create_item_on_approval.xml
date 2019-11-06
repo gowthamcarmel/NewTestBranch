@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_create_item_on_approval">
+  <defaultfunction>Schedule_Item_creation_OnApproval</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Create Item on Approval</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/Create Item on Approval]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_item_creation_workflow_act">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>[scriptid=customrecord_item_request]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

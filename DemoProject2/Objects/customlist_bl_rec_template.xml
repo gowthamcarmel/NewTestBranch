@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_bl_rec_template">
+  <description>Specifies which Blackline reconciliation template the account should be displayed with</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Rec Template</name>
+  <customvalues>
+    <customvalue scriptid="val_4495459_3431250_399">
+      <isinactive>F</isinactive>
+      <value>BANKMATCH</value>
+    </customvalue>
+    <customvalue scriptid="val_4657667_3431250_538">
+      <isinactive>F</isinactive>
+      <value>N/A</value>
+    </customvalue>
+    <customvalue scriptid="val_4495456_3431250_877">
+      <isinactive>F</isinactive>
+      <value>Req and Sup with SS</value>
+    </customvalue>
+    <customvalue scriptid="val_4495458_3431250_408">
+      <isinactive>F</isinactive>
+      <value>Reqd Supp Amortisation</value>
+    </customvalue>
+    <customvalue scriptid="val_4495457_3431250_241">
+      <isinactive>F</isinactive>
+      <value>Required and Supporting</value>
+    </customvalue>
+  </customvalues>
+</customlist>

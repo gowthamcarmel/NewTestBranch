@@ -1,0 +1,180 @@
+<customlist scriptid="customlist_paygrade">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Employee Grade</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M1</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M2</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M3</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M4</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M5</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M6</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M7</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M8</value>
+    </customvalue>
+    <customvalue scriptid="value_20_3431250_417">
+      <isinactive>F</isinactive>
+      <value>M9</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P0</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P1</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P2</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P3</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P4</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>P5</value>
+    </customvalue>
+    <customvalue scriptid="value_15_3431250_417">
+      <isinactive>F</isinactive>
+      <value>S1</value>
+    </customvalue>
+    <customvalue scriptid="value_16_3431250_417">
+      <isinactive>F</isinactive>
+      <value>S2</value>
+    </customvalue>
+    <customvalue scriptid="value_17_3431250_417">
+      <isinactive>F</isinactive>
+      <value>S3</value>
+    </customvalue>
+    <customvalue scriptid="value_18_3431250_417">
+      <isinactive>F</isinactive>
+      <value>S4</value>
+    </customvalue>
+    <customvalue scriptid="value_19_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Final Clearance</value>
+    </customvalue>
+    <customvalue scriptid="val_21678678_3431250_102">
+      <isinactive>F</isinactive>
+      <value>D1</value>
+    </customvalue>
+    <customvalue scriptid="val_21678679_3431250_510">
+      <isinactive>F</isinactive>
+      <value>D2</value>
+    </customvalue>
+    <customvalue scriptid="val_21678680_3431250_871">
+      <isinactive>F</isinactive>
+      <value>D3</value>
+    </customvalue>
+    <customvalue scriptid="val_21678681_3431250_520">
+      <isinactive>F</isinactive>
+      <value>D4</value>
+    </customvalue>
+    <customvalue scriptid="val_21678683_3431250_158">
+      <isinactive>F</isinactive>
+      <value>CIO Clearance</value>
+    </customvalue>
+    <customvalue scriptid="val_21678684_3431250_877">
+      <isinactive>F</isinactive>
+      <value>Finance Clearance</value>
+    </customvalue>
+    <customvalue scriptid="val_21678685_3431250_396">
+      <isinactive>F</isinactive>
+      <value>Grade 01</value>
+    </customvalue>
+    <customvalue scriptid="val_21678686_3431250_580">
+      <isinactive>F</isinactive>
+      <value>Grade 02</value>
+    </customvalue>
+    <customvalue scriptid="val_21678687_3431250_372">
+      <isinactive>F</isinactive>
+      <value>Grade 03</value>
+    </customvalue>
+    <customvalue scriptid="val_21678688_3431250_464">
+      <isinactive>F</isinactive>
+      <value>Grade 04</value>
+    </customvalue>
+    <customvalue scriptid="val_21678689_3431250_890">
+      <isinactive>F</isinactive>
+      <value>Grade 05</value>
+    </customvalue>
+    <customvalue scriptid="val_21678690_3431250_354">
+      <isinactive>F</isinactive>
+      <value>Grade 06</value>
+    </customvalue>
+    <customvalue scriptid="val_21678691_3431250_254">
+      <isinactive>F</isinactive>
+      <value>Grade 07</value>
+    </customvalue>
+    <customvalue scriptid="val_21678692_3431250_405">
+      <isinactive>F</isinactive>
+      <value>Grade 08</value>
+    </customvalue>
+    <customvalue scriptid="val_21678693_3431250_800">
+      <isinactive>F</isinactive>
+      <value>Grade 09</value>
+    </customvalue>
+    <customvalue scriptid="val_21678694_3431250_972">
+      <isinactive>F</isinactive>
+      <value>Grade 10</value>
+    </customvalue>
+    <customvalue scriptid="val_21678695_3431250_440">
+      <isinactive>F</isinactive>
+      <value>Grade 11</value>
+    </customvalue>
+    <customvalue scriptid="val_21678696_3431250_558">
+      <isinactive>F</isinactive>
+      <value>Grade 12</value>
+    </customvalue>
+    <customvalue scriptid="val_21678697_3431250_364">
+      <isinactive>F</isinactive>
+      <value>Grade 13</value>
+    </customvalue>
+    <customvalue scriptid="val_21678698_3431250_779">
+      <isinactive>F</isinactive>
+      <value>Grade 14</value>
+    </customvalue>
+    <customvalue scriptid="val_21678699_3431250_970">
+      <isinactive>F</isinactive>
+      <value>Grade 15</value>
+    </customvalue>
+    <customvalue scriptid="val_21678700_3431250_462">
+      <isinactive>F</isinactive>
+      <value>CFO Clearance</value>
+    </customvalue>
+    <customvalue scriptid="val_21678701_3431250_362">
+      <isinactive>F</isinactive>
+      <value>Grade 0</value>
+    </customvalue>
+  </customvalues>
+</customlist>
