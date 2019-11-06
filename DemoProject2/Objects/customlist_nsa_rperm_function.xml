@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_nsa_rperm_function">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NSA : Role Permission Function</name>
+  <customvalues>
+    <customvalue scriptid="val_84214_t817301_605">
+      <isinactive>F</isinactive>
+      <value>Transactions</value>
+    </customvalue>
+    <customvalue scriptid="val_84215_t817301_967">
+      <isinactive>F</isinactive>
+      <value>Reports</value>
+    </customvalue>
+    <customvalue scriptid="val_84216_t817301_361">
+      <isinactive>F</isinactive>
+      <value>Lists</value>
+    </customvalue>
+    <customvalue scriptid="val_84217_t817301_146">
+      <isinactive>F</isinactive>
+      <value>Setup</value>
+    </customvalue>
+    <customvalue scriptid="val_84218_t817301_451">
+      <isinactive>F</isinactive>
+      <value>Custom Record</value>
+    </customvalue>
+  </customvalues>
+</customlist>

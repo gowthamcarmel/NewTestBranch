@@ -1,0 +1,48 @@
+<customlist scriptid="customlist_resource_objective_score">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Resource Objective Score</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>1</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>2</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>3</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>4</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>5</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>6</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>7</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>8</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>9</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>10</value>
+    </customvalue>
+  </customvalues>
+</customlist>

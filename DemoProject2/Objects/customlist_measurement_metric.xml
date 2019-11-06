@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_measurement_metric">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Measurement Metric</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hours</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Delivery Date</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Cost of Delivery</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Acceptance Survey</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Independent review of BRD confirms fitness for purpose</value>
+    </customvalue>
+  </customvalues>
+</customlist>

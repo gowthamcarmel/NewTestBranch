@@ -1,0 +1,10 @@
+function userEventSave()
+{
+
+   var rec = nlapiLoadRecord(nlapiGetRecordType(),nlapiGetRecordId(),{recordmode: 'dynamic'});
+
+   rec.setFieldValue('tobeprinted','F');
+
+   nlapiSubmitRecord(rec);
+
+}

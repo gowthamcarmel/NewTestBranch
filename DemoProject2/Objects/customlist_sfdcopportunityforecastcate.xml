@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_sfdcopportunityforecastcate">
+  <description>SFDC Forecast Category</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>SFDC Forecast Category</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Values not defined</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Omitted</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Pipeline</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Best Case</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Commit</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Closed</value>
+    </customvalue>
+  </customvalues>
+</customlist>

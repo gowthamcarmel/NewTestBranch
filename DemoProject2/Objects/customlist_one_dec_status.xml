@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_one_dec_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>ONE: Decision Status</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Pending</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Delayed</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Decision Made</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Obsolete/No Longer Valid</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_aap_status">
+  <description>Used to populate request status in user role request functionality</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>URR : Status</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Submit for approval</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Pending Supervisor Approval</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>T</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Approved / Pending Processing</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Approved / Access Granted</value>
+    </customvalue>
+  </customvalues>
+</customlist>

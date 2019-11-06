@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_bl001_include_exclude_list">
+  <description>List for the dropdown to select whether the account filter list is to include or exclude.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Data Connect Inc/Exc</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Ignore</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Include</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Exclude</value>
+    </customvalue>
+  </customvalues>
+</customlist>

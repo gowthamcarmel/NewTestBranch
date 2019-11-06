@@ -1,0 +1,20 @@
+<customlist scriptid="customlistab_level_of_utilisation">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Level of Utilisation</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Fully Utilised</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Not Utilised</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Somewhat Utilised</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,128 @@
+<customlist scriptid="customlist_delivery_terms">
+  <description>This is a list of delivery terms.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Delivery Terms</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>EXW</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FCA</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FAS</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FOB</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CFR</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CIF</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CPT</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CIP</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DAF</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DES</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DEQ</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DDU</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>DDP</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>XXX</value>
+    </customvalue>
+    <customvalue scriptid="val_52198_3776644_259">
+      <isinactive>F</isinactive>
+      <value>DAP</value>
+    </customvalue>
+    <customvalue scriptid="val_52199_3776644_860">
+      <isinactive>F</isinactive>
+      <value>DAT</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3776644_349">
+      <isinactive>F</isinactive>
+      <value>EXW</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3776644_349">
+      <isinactive>F</isinactive>
+      <value>FCA</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3776644_349">
+      <isinactive>F</isinactive>
+      <value>FAS</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3776644_349">
+      <isinactive>F</isinactive>
+      <value>FOB</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3776644_349">
+      <isinactive>F</isinactive>
+      <value>CFR</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3776644_349">
+      <isinactive>F</isinactive>
+      <value>CIF</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3776644_349">
+      <isinactive>F</isinactive>
+      <value>CPT</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3776644_349">
+      <isinactive>F</isinactive>
+      <value>CIP</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3776644_349">
+      <isinactive>F</isinactive>
+      <value>DAF</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3776644_349">
+      <isinactive>F</isinactive>
+      <value>DES</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3776644_349">
+      <isinactive>F</isinactive>
+      <value>DEQ</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3776644_349">
+      <isinactive>F</isinactive>
+      <value>DDU</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3776644_349">
+      <isinactive>F</isinactive>
+      <value>DDP</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3776644_349">
+      <isinactive>F</isinactive>
+      <value>XXX</value>
+    </customvalue>
+  </customvalues>
+</customlist>

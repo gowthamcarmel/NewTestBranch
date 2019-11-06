@@ -1,0 +1,6 @@
+<customlist scriptid="customlist_cass_status">
+  <description>CASS Status</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>CASS Status</name>
+</customlist>

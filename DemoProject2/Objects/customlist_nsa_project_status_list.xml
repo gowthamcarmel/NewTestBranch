@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_nsa_project_status_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NSA : Project Status List</name>
+  <customvalues>
+    <customvalue scriptid="val_5727234_3431250_sb99_830">
+      <isinactive>F</isinactive>
+      <value>For Assessment</value>
+    </customvalue>
+    <customvalue scriptid="val_5727235_3431250_sb99_608">
+      <isinactive>F</isinactive>
+      <value>Request Approved - Pending Development</value>
+    </customvalue>
+    <customvalue scriptid="val_5727236_3431250_sb99_863">
+      <isinactive>F</isinactive>
+      <value>In Development</value>
+    </customvalue>
+    <customvalue scriptid="val_5727237_3431250_sb99_201">
+      <isinactive>F</isinactive>
+      <value>Development Finished - Ready for Testing</value>
+    </customvalue>
+    <customvalue scriptid="val_5727238_3431250_sb99_197">
+      <isinactive>F</isinactive>
+      <value>Undergoing UAT</value>
+    </customvalue>
+    <customvalue scriptid="val_5727239_3431250_sb99_542">
+      <isinactive>F</isinactive>
+      <value>Tested - Further Development Required</value>
+    </customvalue>
+    <customvalue scriptid="val_7012007_3431250_sb99_489">
+      <isinactive>F</isinactive>
+      <value>Completed</value>
+    </customvalue>
+  </customvalues>
+</customlist>

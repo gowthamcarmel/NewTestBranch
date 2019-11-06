@@ -1,0 +1,92 @@
+	function fieldChange_OnNewDeals(type,name)
+	{	
+		try
+		{
+			var customerID = nlapiGetFieldValue('custrecord_newdeal_customer');
+		if (name == 'custrecord_newdeal_customer' && customerID != '' )
+		{
+		  
+			if(_logValidation(customerID))
+			{
+					//var temp = '/app/site/hosting/scriptlet.nl?script=1202&deploy=2';
+					
+					getCustomerAddress(customerID);
+					
+			}
+			else
+			{
+				alert('Please select a customer');
+			}
+		}	
+		}
+		
+		catch (error)
+		{
+			 nlapiLogExecution('ERROR','Process Error',  e.getCode() + ': ' + e.getDetails());
+		}
+	}
+
+	function _logValidation(value)
+	{
+		if(value != null && value != '' && value != undefined && value.toString() != 'NaN' && value != NaN)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+	function setShipAddress(Shippingaddr)
+	{
+		try{
+		//alert('EmpCostCentre ='+EmpCostCentre)
+
+		 nlapiLogExecution('DEBUG', 'Shippingaddr', 'Shippingaddr===' + Shippingaddr);
+		
+		nlapiSetFieldValue('custrecord_newdeal_shipto', Shippingaddr);
+		//nlapiSetFieldValue('class', EmpProduct);
+
+		}
+		/*window.opener.nlapiSetFieldValue('department', EmpCostCentre);
+		window.opener.nlapiSetFieldValue('class', EmpProduct);
+		window.opener.nlapiSetFieldValue('location', EmpRegion);*/
+		//window.open("","_self");
+		//window.close();
+		 catch (error)
+		{
+			 nlapiLogExecution('ERROR','Process Error',  e.getCode() + ': ' + e.getDetails());
+		}
+			
+	}
+
+	function postSourcing_OnNewDeals(type, name) 
+	{
+		if (name === 'custrecord_newdeal_customer' || name === 'custrecord_newdeal_shipto')
+		{
+			var Shippingaddr= nlapiGetFieldValue('custrecord_newdeal_shipto');
+
+		}
+	}
+
+	function getCustomerAddress(customerID)
+	{
+		try
+			{
+				
+				//alert('EmpID ='+EmpID)
+				nlapiLogExecution('DEBUG','On New Deals','CustomerID='+ customerID);
+				
+				//var temp = 'https://system.eu2.netsuite.com/app/site/hosting/scriptlet.nl?script=1092&deploy=1';
+				var temp= '/app/site/hosting/scriptlet.nl?script=1207&deploy=1';
+					temp+='&custscript_customer1='+customerID;
+					//var objWind = window.open(temp, "_blank", "toolbar=no,menubar=0,status=0,copyhistory=0,scrollbars=yes,resizable=1,location=0,Width=450,Height=450");
+				 var objWind = window.open(temp, "_blank", "toolbar=no,menubar=0,status=0,copyhistory=0,scrollbars=yes,resizable=1,location=0,Width=450,Height=450");
+			}
+			catch(e)
+			{
+				 nlapiLogExecution('ERROR','Process Error',  e.getCode() + ': ' + e.getDetails());
+			}
+	}
+

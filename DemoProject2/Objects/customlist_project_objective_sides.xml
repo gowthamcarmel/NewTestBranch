@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_project_objective_sides">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Project Objective Sides</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Client</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Supplier</value>
+    </customvalue>
+  </customvalues>
+</customlist>

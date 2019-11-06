@@ -1,0 +1,76 @@
+<customlist scriptid="customlist_sales_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Sales Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>New Sale</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Upgrade</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Additional Usage</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>License Extension</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Termination/Read-only</value>
+    </customvalue>
+    <customvalue scriptid="val_9613452_3431250_198">
+      <isinactive>F</isinactive>
+      <value>New Name Customer</value>
+    </customvalue>
+    <customvalue scriptid="val_9613453_3431250_270">
+      <isinactive>F</isinactive>
+      <value>Renewals</value>
+    </customvalue>
+    <customvalue scriptid="val_9613454_3431250_937">
+      <isinactive>F</isinactive>
+      <value>Cross product line sell</value>
+    </customvalue>
+    <customvalue scriptid="val_9613455_3431250_227">
+      <isinactive>F</isinactive>
+      <value>Volume Increase</value>
+    </customvalue>
+    <customvalue scriptid="val_9613456_3431250_796">
+      <isinactive>F</isinactive>
+      <value>Up-sell</value>
+    </customvalue>
+    <customvalue scriptid="val_9613457_3431250_598">
+      <isinactive>F</isinactive>
+      <value>Version Upgrade</value>
+    </customvalue>
+    <customvalue scriptid="val_9613458_3431250_518">
+      <isinactive>F</isinactive>
+      <value>Read-only license or contract restructuring</value>
+    </customvalue>
+    <customvalue scriptid="val_9613459_3431250_378">
+      <isinactive>F</isinactive>
+      <value>Backlog</value>
+    </customvalue>
+    <customvalue scriptid="val_9613460_3431250_304">
+      <isinactive>F</isinactive>
+      <value>Services Only</value>
+    </customvalue>
+    <customvalue scriptid="val_25995953_3431250_832">
+      <isinactive>F</isinactive>
+      <value>License Restructure</value>
+    </customvalue>
+    <customvalue scriptid="val_26119617_3431250_818">
+      <isinactive>F</isinactive>
+      <value>Cross-Sell</value>
+    </customvalue>
+    <customvalue scriptid="val_26119625_3431250_796">
+      <isinactive>F</isinactive>
+      <value>Product migration/swap</value>
+    </customvalue>
+  </customvalues>
+</customlist>

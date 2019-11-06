@@ -1,0 +1,84 @@
+<customlist scriptid="customlist_bl_acc_category">
+  <description>Used to group accounts for the purpose of assigning certification owners, rather than having to do it account by account</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Acc Category</name>
+  <customvalues>
+    <customvalue scriptid="val_4495439_3431250_514">
+      <isinactive>F</isinactive>
+      <value>Accl Other</value>
+    </customvalue>
+    <customvalue scriptid="val_4495440_3431250_674">
+      <isinactive>F</isinactive>
+      <value>Agents Fees</value>
+    </customvalue>
+    <customvalue scriptid="val_4495441_3431250_929">
+      <isinactive>F</isinactive>
+      <value>AIDI-ILF-RLF-PSS</value>
+    </customvalue>
+    <customvalue scriptid="val_4495442_3431250_113">
+      <isinactive>F</isinactive>
+      <value>AIDI-Non Trading</value>
+    </customvalue>
+    <customvalue scriptid="val_4495443_3431250_386">
+      <isinactive>F</isinactive>
+      <value>AIDI-Other</value>
+    </customvalue>
+    <customvalue scriptid="val_4495444_3431250_477">
+      <isinactive>F</isinactive>
+      <value>AIDI-PS-FED-RD</value>
+    </customvalue>
+    <customvalue scriptid="val_4495445_3431250_321">
+      <isinactive>F</isinactive>
+      <value>AP Employee</value>
+    </customvalue>
+    <customvalue scriptid="val_4495446_3431250_713">
+      <isinactive>F</isinactive>
+      <value>AP Vendors</value>
+    </customvalue>
+    <customvalue scriptid="val_4657668_3431250_222">
+      <isinactive>F</isinactive>
+      <value>AR &amp; Provisions</value>
+    </customvalue>
+    <customvalue scriptid="val_4495447_3431250_857">
+      <isinactive>F</isinactive>
+      <value>Bank</value>
+    </customvalue>
+    <customvalue scriptid="val_4495448_3431250_844">
+      <isinactive>F</isinactive>
+      <value>BankGuar</value>
+    </customvalue>
+    <customvalue scriptid="val_4495449_3431250_348">
+      <isinactive>F</isinactive>
+      <value>GRNI</value>
+    </customvalue>
+    <customvalue scriptid="val_4657669_3431250_736">
+      <isinactive>F</isinactive>
+      <value>Interco</value>
+    </customvalue>
+    <customvalue scriptid="val_4495450_3431250_233">
+      <isinactive>F</isinactive>
+      <value>N/A</value>
+    </customvalue>
+    <customvalue scriptid="val_4495451_3431250_812">
+      <isinactive>F</isinactive>
+      <value>Other BS</value>
+    </customvalue>
+    <customvalue scriptid="val_4495452_3431250_463">
+      <isinactive>F</isinactive>
+      <value>Payroll</value>
+    </customvalue>
+    <customvalue scriptid="val_4495453_3431250_810">
+      <isinactive>F</isinactive>
+      <value>Rev Accruals</value>
+    </customvalue>
+    <customvalue scriptid="val_4495454_3431250_137">
+      <isinactive>F</isinactive>
+      <value>Sales Comm</value>
+    </customvalue>
+    <customvalue scriptid="val_4495455_3431250_244">
+      <isinactive>F</isinactive>
+      <value>VAT</value>
+    </customvalue>
+  </customvalues>
+</customlist>

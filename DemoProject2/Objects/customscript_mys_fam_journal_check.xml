@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_mys_fam_journal_check">
+  <defaultfunction>checkFAMJournal</defaultfunction>
+  <description>To identify FAM Journals and auto-approve them.</description>
+  <isinactive>F</isinactive>
+  <name>FAM Journal Check</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>CHECKBOX</returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/FAM Journal Check.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_fam_journal_check">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>JOURNALENTRY</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

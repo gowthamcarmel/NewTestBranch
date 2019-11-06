@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_misysitemclass">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Misys Item Class</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ILF</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>RLF-SUBCR</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>RLF-MAINT</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-FP</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PS-TM</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IC</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+  </customvalues>
+</customlist>

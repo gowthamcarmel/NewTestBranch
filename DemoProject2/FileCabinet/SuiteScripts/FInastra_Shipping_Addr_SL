@@ -1,0 +1,161 @@
+//BEGIN SUITLET
+
+function suiteletFunction_ShippingDetails(request, response)
+{
+	try 
+    {
+		
+        if (request.getMethod() == 'GET') 
+        {
+        	
+            var LineCount = 0;
+            var form = nlapiCreateForm('Select Shipping Address', true);
+            
+            form.setScript('customscriptcustscript_fin_newdeals_cl');
+			
+			var customerID = request.getParameter('custscriptcustscript_customer');
+            nlapiLogExecution('DEBUG', 'GET', 'EmployeeID= ' + customerID);
+            
+            var infoStr = "<p>Please confirm the employee Cost Centre, Product, Region and Supervisor.</p>";
+			var infoStr = "<p>Please select the Shipping address.</p>";
+			 var info = form.addField('custpage_info','longtext','',null,'main');
+			info.setDisplayType('inline');
+			info.setLayoutType('outsideabove','startrow');
+			info.setDefaultValue(infoStr);
+			
+            var cusRec = nlapiLoadRecord('customer', customerID);
+			
+			
+			var shipping =cusRec.getSubList('Address');
+			
+			
+			nlapiLogExecution('DEBUG', 'cust', 'Shippingaddr===' + shipping);
+			var SelectedLineCount = form.addField('custpage_selected_line_count','integer','Total Count of Selected Lines');
+			SelectedLineCount.setDefaultValue(LineCount);
+			SelectedLineCount.setDisplayType('inline');
+			
+			var ListCount = form.addField('custpage_list_count','integer','Count of Lines');
+			ListCount.setDisplayType('inline');
+			ListCount.setDefaultValue(LineCount);
+			
+			var sublist = form.addSubList('custpage_machine','list','Select Records');
+			
+			var GetButton = sublist.addMarkAllButtons();
+			nlapiLogExecution('DEBUG', 'suitlet', 'GetButton===' + GetButton);
+           
+		    sublist.addField('custpage_select','checkbox','Select');
+			sublist.addField('custpage_internalid','text','Internal ID').setDisplayType('hidden');
+			sublist.addField('custpage_shippingaddr','text','Shipping Address').setDisplayType('inline');
+            
+			
+			var filters = new Array();
+			filters[0] = new nlobjSearchFilter('internalid',null,'is',customerID);
+			//var hits = nlapiSearchRecord('customer','customsearch_cust_addr_search',filters,columns);
+			
+			
+			var columns = new Array();
+			columns[0] = new nlobjSearchColumn('internalid');
+			columns[1] = new nlobjSearchColumn('address');
+			
+			var hits = nlapiSearchRecord('customer','customsearch_cust_addr_search',filters,columns);
+			nlapiLogExecution('DEBUG', 'suitlet', 'hits===' + hits);
+			
+			
+			if(_logValidation(hits))
+			{
+				
+				ListCount.setDefaultValue(hits.length);
+				nlapiLogExecution('DEBUG', 'suitlet', 'hits.length===' + hits.length);
+				var lines = new Array();
+				for(var i=0;i<hits.length;i++)
+				{
+					var h = hits[i];
+					lines.push({
+						custpage_shippingaddr: hits[i].getValue('address'),
+						custpage_internalid: hits[i].getValue('internalid')
+					
+				    });
+					nlapiLogExecution('DEBUG','suitlet','address=='+hits[i].getValue('address'))
+					
+				}
+				sublist.setLineItemValues(lines);
+				
+			}
+			
+			
+         	form.addSubmitButton('Confirm');
+         	
+         	/*window.opener.nlapiSetFieldValue('department', EmpCostCentre);
+        	//window.opener.nlapiSetFieldValue('class', EmpProduct);
+        	window.opener.nlapiSetFieldValue('location', EmpRegion);
+        	window.open("","_self");
+        	window.close();*/
+         	
+            response.writePage(form);
+        }/**** End of request.getMethod() == 'GET'*******/
+        else 
+            if (request.getMethod() == 'POST') 
+			{
+				var Shippingaddr='';
+				var lnCnt = request.getLineItemCount('custpage_machine');
+				
+				for(var ln=1;ln<=lnCnt;ln++)
+    			{
+    				if(request.getLineItemValue('custpage_machine','custpage_select',ln)=='T')
+    				{
+    					Shippingaddr = request.getLineItemValue('custpage_machine','custpage_shippingaddr',ln);
+    					nlapiLogExecution('DEBUG', 'suitlet in post', 'Shippingaddr===' + Shippingaddr);
+    					
+    					
+    				}
+    			}
+    			
+    			
+    			
+    			//var EmpProduct = request.getParameter('custpage_product');
+    			
+    			
+    			//response.write('<html><body><script>window.opener.setEmpDetails(' + EmpCostCentre +', '+ EmpProduct+ ', '+ EmpRegion+ '); self.close();</script></body></html>');
+    			
+    			//response.write('<html><body><script>window.opener.setShippingAddress(' + 'test' +'); self.close();</script></body></html>');
+				
+				response.write('<html><body><script>window.opener.setShippingAddress(' + Shippingaddr +');self.close();</script></body></html>');
+				//window.opener.setShippingAddress(' + Shippingaddr +');
+				//window.parent.setShippingAddress(' + Shippingaddr +');
+				//response.write('<html><body><script>window.parent.window.parent.close();</script></body></html>');
+				//response.write('<html><body><script>window.opener.setEmpDetails(' + EmpCostCentre +', '+ EmpRegion+ ', '+ EmpSupervisor+ '); self.close();</script></body></html>');
+
+				nlapiLogExecution('DEBUG', 'suitlet in post', 'test===' + Shippingaddr);
+    			
+            }/**** End of request.getMethod() == 'POST'*******/
+
+} 
+    catch (Exception) {
+        nlapiLogExecution('DEBUG', 'Exception', 'Exception= ' + Exception);
+    }
+}
+
+function stringToArray (str)
+{
+   //Use ChrCode 5 as a separator
+   var strChar5 = String.fromCharCode(5);
+       
+    //Use the Split method to create an array, 
+   //where Chrcode 5 is the separator/delimiter
+   var multiSelectStringArray = str.split(strChar5);
+
+         return multiSelectStringArray;
+}
+
+function _logValidation(value)
+{
+ if(value != null && value != '' && value != undefined && value.toString() != 'NaN' && value != NaN)
+ {
+  return true;
+ }
+ else
+ {
+  return false;
+ }
+}
+

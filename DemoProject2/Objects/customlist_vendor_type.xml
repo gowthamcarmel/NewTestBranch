@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_vendor_type">
+  <description>Used for vendor requests</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Vendor Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Company</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Individual</value>
+    </customvalue>
+  </customvalues>
+</customlist>

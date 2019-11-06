@@ -1,0 +1,56 @@
+<workflowactionscript scriptid="customscript_mys_head_rev_bill">
+  <defaultfunction>workflowAction_getHeadRevBillAssurance</defaultfunction>
+  <description>Script to fetch Head of Revenue &amp; Billing Assurance</description>
+  <isinactive>F</isinactive>
+  <name>Head of Revenue &amp; Billing Assurance</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype>-4</returnrecordtype>
+  <returntype>SELECT</returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/HeadOfRevBillAssurance.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_head_rev_bill_search">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>SELECT</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>Head Rev &amp; Bill Search</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete>NO_ACTION</onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype>-119</selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_head_rev_bill">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_head_rev_bill_search>[scriptid=customsearch_mys_head_rev_bill]</custscript_head_rev_bill_search>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>RETURNAUTHORIZATION</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

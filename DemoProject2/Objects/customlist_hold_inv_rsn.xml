@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_hold_inv_rsn">
+  <description>Hold Invoice Reason</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Hold Invoice Reason</name>
+  <customvalues>
+    <customvalue scriptid="val_32649546_3431250_sb99_765">
+      <isinactive>F</isinactive>
+      <value>Sales Ops Confirmation</value>
+    </customvalue>
+    <customvalue scriptid="val_32649547_3431250_sb99_226">
+      <isinactive>F</isinactive>
+      <value>PM Confirmation</value>
+    </customvalue>
+    <customvalue scriptid="val_32649548_3431250_sb99_247">
+      <isinactive>F</isinactive>
+      <value>Tax Confirmation</value>
+    </customvalue>
+    <customvalue scriptid="val_32649549_3431250_sb99_752">
+      <isinactive>F</isinactive>
+      <value>NetSuite IS Confirmation</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_mys_so_rej_reason">
+  <defaultfunction>workflowAction_enterRejectReason</defaultfunction>
+  <description>Script to enable users to enter the reason for rejecting a Sales Order</description>
+  <isinactive>F</isinactive>
+  <name>Enter SO Rejection Reason</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/UpdateRejectionReason.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_so_rej_reason">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>SALESORDER</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

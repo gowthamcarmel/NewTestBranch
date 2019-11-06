@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_prevent_notify_vendor_unchk">
+  <description>Script to prevent unchecking of Notify Vendor on the Suitelet</description>
+  <fieldchangedfunction>fieldChanged_preventNotifyVendorToBeUnch</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>[NS] Prevent Notify Vendor to be Uncheck</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteScripts/Misys_FRD-L2C-014_MarkNotifyVendorManually.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

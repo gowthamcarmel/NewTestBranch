@@ -1,0 +1,52 @@
+<customlist scriptid="customlist_ic_trans_type">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IC Transaction Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IPR</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Time</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Expense</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IC Commissions</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Indirect</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Other</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Loan principle</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Loan interest</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Loan principle (interest free)</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IT2</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>3PP and agents fees</value>
+    </customvalue>
+  </customvalues>
+</customlist>

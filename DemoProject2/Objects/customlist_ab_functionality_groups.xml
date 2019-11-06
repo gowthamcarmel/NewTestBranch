@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_ab_functionality_groups">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Functionality Groups</name>
+  <customvalues>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CRM - Marketing</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CRM - SFA</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CRM - Support</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ERP - Inventory</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ERP - Purchasing</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ERP - Revenue</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>SRP - Projects</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>WEB - eCommerce</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>WEB - Intranet</value>
+    </customvalue>
+  </customvalues>
+</customlist>

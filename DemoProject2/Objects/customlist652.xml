@@ -1,0 +1,24 @@
+<customlist scriptid="customlist652">
+  <description>FA location custom list will be used in Regions and Asset records</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>FA location type</name>
+  <customvalues>
+    <customvalue scriptid="val_25173755_3431250_945">
+      <isinactive>F</isinactive>
+      <value>Office</value>
+    </customvalue>
+    <customvalue scriptid="val_25173757_3431250_827">
+      <isinactive>F</isinactive>
+      <value>Data Center</value>
+    </customvalue>
+    <customvalue scriptid="val_25173758_3431250_703">
+      <isinactive>F</isinactive>
+      <value>Client Site</value>
+    </customvalue>
+    <customvalue scriptid="val_25173759_3431250_644">
+      <isinactive>F</isinactive>
+      <value>Remote Employee</value>
+    </customvalue>
+  </customvalues>
+</customlist>

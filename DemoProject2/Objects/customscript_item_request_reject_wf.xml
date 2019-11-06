@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_item_request_reject_wf">
+  <defaultfunction>itemRequet_workflowAction</defaultfunction>
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Item Request Reject WF</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/Item Request Rejection]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_item_req_workflow_dply">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>[scriptid=customrecord_item_request]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

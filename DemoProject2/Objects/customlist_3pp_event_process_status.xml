@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_3pp_event_process_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Process Status</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Processed</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Not Processed</value>
+    </customvalue>
+    <customvalue scriptid="val_5327038_3431250_268">
+      <isinactive>F</isinactive>
+      <value>Invoiced</value>
+    </customvalue>
+    <customvalue scriptid="val_5327039_3431250_558">
+      <isinactive>F</isinactive>
+      <value>PO Created</value>
+    </customvalue>
+    <customvalue scriptid="val_5327040_3431250_482">
+      <isinactive>F</isinactive>
+      <value>Cancelled</value>
+    </customvalue>
+    <customvalue scriptid="val_5327041_3431250_401">
+      <isinactive>F</isinactive>
+      <value>Closed</value>
+    </customvalue>
+    <customvalue scriptid="val_5327042_3431250_555">
+      <isinactive>F</isinactive>
+      <value>Credited</value>
+    </customvalue>
+    <customvalue scriptid="val_9602754_3431250_621">
+      <isinactive>F</isinactive>
+      <value>On Hold</value>
+    </customvalue>
+    <customvalue scriptid="val_9602755_3431250_354">
+      <isinactive>F</isinactive>
+      <value>Invalid</value>
+    </customvalue>
+  </customvalues>
+</customlist>

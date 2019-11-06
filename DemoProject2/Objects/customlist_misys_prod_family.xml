@@ -1,0 +1,480 @@
+<customlist scriptid="customlist_misys_prod_family">
+  <description>This was requested to be added on Oct 17, 2013.</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Product Family</name>
+  <customvalues>
+    <customvalue scriptid="value_146_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Academy</value>
+    </customvalue>
+    <customvalue scriptid="val_13340080_3431250_161">
+      <isinactive>F</isinactive>
+      <value>All Other Products</value>
+    </customvalue>
+    <customvalue scriptid="value_18_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Almonde</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Bankmaster</value>
+    </customvalue>
+    <customvalue scriptid="value_11_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Business Intelligence</value>
+    </customvalue>
+    <customvalue scriptid="value_36_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Carbon Trust</value>
+    </customvalue>
+    <customvalue scriptid="val_13340082_3431250_995">
+      <isinactive>F</isinactive>
+      <value>Channels</value>
+    </customvalue>
+    <customvalue scriptid="val_13754385_3431250_621">
+      <isinactive>F</isinactive>
+      <value>Channels - AVCM</value>
+    </customvalue>
+    <customvalue scriptid="val_13754386_3431250_193">
+      <isinactive>F</isinactive>
+      <value>Channels - Cavion</value>
+    </customvalue>
+    <customvalue scriptid="val_13754387_3431250_472">
+      <isinactive>F</isinactive>
+      <value>Channels - Cavion Billpay</value>
+    </customvalue>
+    <customvalue scriptid="val_13754388_3431250_443">
+      <isinactive>F</isinactive>
+      <value>Channels - Cavion Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754389_3431250_949">
+      <isinactive>F</isinactive>
+      <value>Channels - Encore</value>
+    </customvalue>
+    <customvalue scriptid="val_13754390_3431250_464">
+      <isinactive>F</isinactive>
+      <value>Channels - EZ Teller</value>
+    </customvalue>
+    <customvalue scriptid="val_25875736_3431250_950">
+      <isinactive>F</isinactive>
+      <value>Channels - Malauzai</value>
+    </customvalue>
+    <customvalue scriptid="val_13754391_3431250_709">
+      <isinactive>F</isinactive>
+      <value>Channels - Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754392_3431250_585">
+      <isinactive>F</isinactive>
+      <value>Channels - Touche</value>
+    </customvalue>
+    <customvalue scriptid="val_13754393_3431250_229">
+      <isinactive>F</isinactive>
+      <value>Channels - uBanking</value>
+    </customvalue>
+    <customvalue scriptid="val_13340083_3431250_814">
+      <isinactive>F</isinactive>
+      <value>Cheque</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>City Dealer</value>
+    </customvalue>
+    <customvalue scriptid="val_25875735_3431250_492">
+      <isinactive>F</isinactive>
+      <value>CLS</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CMark</value>
+    </customvalue>
+    <customvalue scriptid="value_40_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CME</value>
+    </customvalue>
+    <customvalue scriptid="val_13340084_3431250_449">
+      <isinactive>F</isinactive>
+      <value>CMS</value>
+    </customvalue>
+    <customvalue scriptid="value_26_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CMS</value>
+    </customvalue>
+    <customvalue scriptid="val_13340085_3431250_957">
+      <isinactive>F</isinactive>
+      <value>CMT</value>
+    </customvalue>
+    <customvalue scriptid="val_14487509_3431250_749">
+      <isinactive>F</isinactive>
+      <value>Collateral MS</value>
+    </customvalue>
+    <customvalue scriptid="val_13340086_3431250_936">
+      <isinactive>F</isinactive>
+      <value>Compushare</value>
+    </customvalue>
+    <customvalue scriptid="val_13754394_3431250_663">
+      <isinactive>F</isinactive>
+      <value>Compushare - C3</value>
+    </customvalue>
+    <customvalue scriptid="val_13754395_3431250_880">
+      <isinactive>F</isinactive>
+      <value>Compushare - Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754396_3431250_855">
+      <isinactive>F</isinactive>
+      <value>Compushare - Tech Mgmt</value>
+    </customvalue>
+    <customvalue scriptid="value_39_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Corporate Channels</value>
+    </customvalue>
+    <customvalue scriptid="value_13_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Digital Channels</value>
+    </customvalue>
+    <customvalue scriptid="value_19_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Eagleye</value>
+    </customvalue>
+    <customvalue scriptid="val_13340087_3431250_289">
+      <isinactive>F</isinactive>
+      <value>Enhancement Services</value>
+    </customvalue>
+    <customvalue scriptid="val_13340088_3431250_883">
+      <isinactive>F</isinactive>
+      <value>Enterprise</value>
+    </customvalue>
+    <customvalue scriptid="val_13754397_3431250_782">
+      <isinactive>F</isinactive>
+      <value>Enterprise - Intrieve</value>
+    </customvalue>
+    <customvalue scriptid="val_13754398_3431250_341">
+      <isinactive>F</isinactive>
+      <value>Enterprise - Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754399_3431250_118">
+      <isinactive>F</isinactive>
+      <value>Enterprise - Phoenix</value>
+    </customvalue>
+    <customvalue scriptid="val_13754400_3431250_484">
+      <isinactive>F</isinactive>
+      <value>Enterprise - Sparak</value>
+    </customvalue>
+    <customvalue scriptid="val_13754401_3431250_199">
+      <isinactive>F</isinactive>
+      <value>Enterprise - Ultradata</value>
+    </customvalue>
+    <customvalue scriptid="val_13340089_3431250_788">
+      <isinactive>F</isinactive>
+      <value>Enterprise Solutions</value>
+    </customvalue>
+    <customvalue scriptid="value_14_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Equation</value>
+    </customvalue>
+    <customvalue scriptid="value_41_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Essence</value>
+    </customvalue>
+    <customvalue scriptid="value_12_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FB Core Other</value>
+    </customvalue>
+    <customvalue scriptid="value_33_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FB Lending Other</value>
+    </customvalue>
+    <customvalue scriptid="value_28_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FB TB Other</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FBE Components</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FC Components</value>
+    </customvalue>
+    <customvalue scriptid="value_42_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Fees &amp; Billing</value>
+    </customvalue>
+    <customvalue scriptid="val_13340090_3431250_681">
+      <isinactive>F</isinactive>
+      <value>Financial Messaging</value>
+    </customvalue>
+    <customvalue scriptid="value_27_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Fontis</value>
+    </customvalue>
+    <customvalue scriptid="value_43_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FR Balance Sheet Management</value>
+    </customvalue>
+    <customvalue scriptid="value_44_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FR Limits</value>
+    </customvalue>
+    <customvalue scriptid="value_45_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FR Market Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_46_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FR Platform</value>
+    </customvalue>
+    <customvalue scriptid="value_47_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FR Regulatory Reporting</value>
+    </customvalue>
+    <customvalue scriptid="val_13340081_3431250_929">
+      <isinactive>F</isinactive>
+      <value>Fusion Compl Mgt</value>
+    </customvalue>
+    <customvalue scriptid="value_37_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FusionCapital Other</value>
+    </customvalue>
+    <customvalue scriptid="value_38_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FusionInvest</value>
+    </customvalue>
+    <customvalue scriptid="value_48_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FusionInvest Other</value>
+    </customvalue>
+    <customvalue scriptid="value_20_3431250_417">
+      <isinactive>F</isinactive>
+      <value>FusionRisk Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13340091_3431250_702">
+      <isinactive>F</isinactive>
+      <value>Global Payments</value>
+    </customvalue>
+    <customvalue scriptid="val_13340092_3431250_637">
+      <isinactive>F</isinactive>
+      <value>Global Payments &amp; FM</value>
+    </customvalue>
+    <customvalue scriptid="val_13340093_3431250_703">
+      <isinactive>F</isinactive>
+      <value>International FS</value>
+    </customvalue>
+    <customvalue scriptid="val_13754402_3431250_857">
+      <isinactive>F</isinactive>
+      <value>International FS - Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754403_3431250_150">
+      <isinactive>F</isinactive>
+      <value>International FS - Phoenix</value>
+    </customvalue>
+    <customvalue scriptid="val_13340094_3431250_349">
+      <isinactive>F</isinactive>
+      <value>International GLS</value>
+    </customvalue>
+    <customvalue scriptid="value_15_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Intesio</value>
+    </customvalue>
+    <customvalue scriptid="value_21_3431250_417">
+      <isinactive>F</isinactive>
+      <value>KGR</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Kondor</value>
+    </customvalue>
+    <customvalue scriptid="value_29_3431250_417">
+      <isinactive>F</isinactive>
+      <value>KTP</value>
+    </customvalue>
+    <customvalue scriptid="value_22_3431250_417">
+      <isinactive>F</isinactive>
+      <value>KVAR</value>
+    </customvalue>
+    <customvalue scriptid="value_49_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legacy Academy</value>
+    </customvalue>
+    <customvalue scriptid="value_50_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legacy Capital Markets</value>
+    </customvalue>
+    <customvalue scriptid="value_51_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legacy FB Core</value>
+    </customvalue>
+    <customvalue scriptid="value_52_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legacy Risk</value>
+    </customvalue>
+    <customvalue scriptid="value_53_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legacy TB</value>
+    </customvalue>
+    <customvalue scriptid="value_34_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Loan IQ</value>
+    </customvalue>
+    <customvalue scriptid="value_16_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Meridian</value>
+    </customvalue>
+    <customvalue scriptid="value_23_3431250_417">
+      <isinactive>F</isinactive>
+      <value>MGR</value>
+    </customvalue>
+    <customvalue scriptid="value_17_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Midas</value>
+    </customvalue>
+    <customvalue scriptid="val_13754404_3431250_983">
+      <isinactive>F</isinactive>
+      <value>MS - EIPP</value>
+    </customvalue>
+    <customvalue scriptid="val_13754405_3431250_506">
+      <isinactive>F</isinactive>
+      <value>MS - Internet Payments</value>
+    </customvalue>
+    <customvalue scriptid="val_13340095_3431250_449">
+      <isinactive>F</isinactive>
+      <value>MS - Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754406_3431250_847">
+      <isinactive>F</isinactive>
+      <value>MS - RDC</value>
+    </customvalue>
+    <customvalue scriptid="value_35_3431250_417">
+      <isinactive>F</isinactive>
+      <value>No Analysis</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Opics</value>
+    </customvalue>
+    <customvalue scriptid="val_13340096_3431250_550">
+      <isinactive>F</isinactive>
+      <value>Origination &amp; Compliance</value>
+    </customvalue>
+    <customvalue scriptid="val_13340097_3431250_443">
+      <isinactive>F</isinactive>
+      <value>Other FS Product</value>
+    </customvalue>
+    <customvalue scriptid="val_13340098_3431250_146">
+      <isinactive>F</isinactive>
+      <value>Payment Manager</value>
+    </customvalue>
+    <customvalue scriptid="value_30_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Payments</value>
+    </customvalue>
+    <customvalue scriptid="val_13754407_3431250_495">
+      <isinactive>F</isinactive>
+      <value>Payments - AVIP</value>
+    </customvalue>
+    <customvalue scriptid="val_13754408_3431250_146">
+      <isinactive>F</isinactive>
+      <value>Payments - Card Payments</value>
+    </customvalue>
+    <customvalue scriptid="val_13340099_3431250_789">
+      <isinactive>F</isinactive>
+      <value>Payments - D+H</value>
+    </customvalue>
+    <customvalue scriptid="val_13754409_3431250_418">
+      <isinactive>F</isinactive>
+      <value>Payments - DpxPay</value>
+    </customvalue>
+    <customvalue scriptid="val_13754410_3431250_851">
+      <isinactive>F</isinactive>
+      <value>Payments - Item Processing</value>
+    </customvalue>
+    <customvalue scriptid="val_13754411_3431250_920">
+      <isinactive>F</isinactive>
+      <value>Payments - Other</value>
+    </customvalue>
+    <customvalue scriptid="value_31_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Portal</value>
+    </customvalue>
+    <customvalue scriptid="value_54_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PTP</value>
+    </customvalue>
+    <customvalue scriptid="val_13340100_3431250_291">
+      <isinactive>F</isinactive>
+      <value>Retail Solutions</value>
+    </customvalue>
+    <customvalue scriptid="value_24_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Risk Vision</value>
+    </customvalue>
+    <customvalue scriptid="val_20164424_3431250_545">
+      <isinactive>F</isinactive>
+      <value>Seamless FX</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Sophis Risque</value>
+    </customvalue>
+    <customvalue scriptid="val_13340101_3431250_412">
+      <isinactive>F</isinactive>
+      <value>Student Loans</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Summit</value>
+    </customvalue>
+    <customvalue scriptid="value_25_3431250_417">
+      <isinactive>F</isinactive>
+      <value>TopOffice</value>
+    </customvalue>
+    <customvalue scriptid="value_32_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Trade Innovation</value>
+    </customvalue>
+    <customvalue scriptid="val_13340102_3431250_419">
+      <isinactive>F</isinactive>
+      <value>Treasury (Cash Mgmt)</value>
+    </customvalue>
+    <customvalue scriptid="val_13754412_3431250_277">
+      <isinactive>F</isinactive>
+      <value>US Lending - CreditPath</value>
+    </customvalue>
+    <customvalue scriptid="val_13754413_3431250_717">
+      <isinactive>F</isinactive>
+      <value>US Lending - Creditquest USA</value>
+    </customvalue>
+    <customvalue scriptid="val_13754414_3431250_851">
+      <isinactive>F</isinactive>
+      <value>US Lending - DecisionPro</value>
+    </customvalue>
+    <customvalue scriptid="val_13754415_3431250_103">
+      <isinactive>F</isinactive>
+      <value>US Lending - LaserPro</value>
+    </customvalue>
+    <customvalue scriptid="val_13340103_3431250_188">
+      <isinactive>F</isinactive>
+      <value>US Lending Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754416_3431250_724">
+      <isinactive>F</isinactive>
+      <value>US Mort - Mortgagebot LOS</value>
+    </customvalue>
+    <customvalue scriptid="val_13754417_3431250_417">
+      <isinactive>F</isinactive>
+      <value>US Mort - Mortgagebot Other</value>
+    </customvalue>
+    <customvalue scriptid="val_13754418_3431250_694">
+      <isinactive>F</isinactive>
+      <value>US Mort - Mortgagebot POS</value>
+    </customvalue>
+    <customvalue scriptid="val_13754419_3431250_779">
+      <isinactive>F</isinactive>
+      <value>US Mort - Servicing Dir</value>
+    </customvalue>
+    <customvalue scriptid="val_13340104_3431250_634">
+      <isinactive>F</isinactive>
+      <value>US Payments</value>
+    </customvalue>
+  </customvalues>
+</customlist>

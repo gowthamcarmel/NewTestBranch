@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_oa_je_from_time_cost_level">
+  <description>OpenAir loaded cost levels to use for journal entry creation from time entries</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>OpenAir: Cost Level for JE</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Primary</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Secondary</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Tertiary</value>
+    </customvalue>
+  </customvalues>
+</customlist>

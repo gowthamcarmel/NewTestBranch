@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_bl_aidi_si_sum">
+  <description>Used for AIDI accounts to indicate which summarisation method is used for the creation of supporting items</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL AIDI SI Summarisation</name>
+  <customvalues>
+    <customvalue scriptid="val_4495433_3431250_482">
+      <isinactive>F</isinactive>
+      <value>Name</value>
+    </customvalue>
+    <customvalue scriptid="val_4495434_3431250_374">
+      <isinactive>F</isinactive>
+      <value>Name/Misys Ref</value>
+    </customvalue>
+    <customvalue scriptid="val_4495435_3431250_683">
+      <isinactive>F</isinactive>
+      <value>Name/Rev Rec</value>
+    </customvalue>
+  </customvalues>
+</customlist>

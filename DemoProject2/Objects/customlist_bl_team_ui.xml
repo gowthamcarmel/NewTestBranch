@@ -1,0 +1,72 @@
+<customlist scriptid="customlist_bl_team_ui">
+  <description>The unique identifier of the team which the account should be attached to</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Team UI</name>
+  <customvalues>
+    <customvalue scriptid="val_4495390_3431250_989">
+      <isinactive>F</isinactive>
+      <value>Accr</value>
+    </customvalue>
+    <customvalue scriptid="val_4495402_3431250_624">
+      <isinactive>F</isinactive>
+      <value>AIDI-ILF-RLF-PSS</value>
+    </customvalue>
+    <customvalue scriptid="val_4495403_3431250_736">
+      <isinactive>F</isinactive>
+      <value>AIDI-Non Trading</value>
+    </customvalue>
+    <customvalue scriptid="val_4495404_3431250_291">
+      <isinactive>F</isinactive>
+      <value>AIDI-Other</value>
+    </customvalue>
+    <customvalue scriptid="val_4495405_3431250_803">
+      <isinactive>F</isinactive>
+      <value>AIDI-PS-FED-RD</value>
+    </customvalue>
+    <customvalue scriptid="val_4495391_3431250_482">
+      <isinactive>F</isinactive>
+      <value>BankG</value>
+    </customvalue>
+    <customvalue scriptid="val_4495392_3431250_560">
+      <isinactive>F</isinactive>
+      <value>BRNR</value>
+    </customvalue>
+    <customvalue scriptid="val_4495393_3431250_974">
+      <isinactive>F</isinactive>
+      <value>BRS</value>
+    </customvalue>
+    <customvalue scriptid="val_4495395_3431250_367">
+      <isinactive>F</isinactive>
+      <value>BSAPEmp</value>
+    </customvalue>
+    <customvalue scriptid="val_4495396_3431250_858">
+      <isinactive>F</isinactive>
+      <value>BSAPV</value>
+    </customvalue>
+    <customvalue scriptid="val_4495397_3431250_363">
+      <isinactive>F</isinactive>
+      <value>BSCredC</value>
+    </customvalue>
+    <customvalue scriptid="val_4495398_3431250_218">
+      <isinactive>F</isinactive>
+      <value>BSPay</value>
+    </customvalue>
+    <customvalue scriptid="val_4495394_3431250_109">
+      <isinactive>F</isinactive>
+      <value>BSRtR</value>
+    </customvalue>
+    <customvalue scriptid="val_4495399_3431250_141">
+      <isinactive>F</isinactive>
+      <value>BSVAT</value>
+    </customvalue>
+    <customvalue scriptid="val_4495400_3431250_272">
+      <isinactive>F</isinactive>
+      <value>Prepay</value>
+    </customvalue>
+    <customvalue scriptid="val_4495401_3431250_620">
+      <isinactive>F</isinactive>
+      <value>RevAccruals</value>
+    </customvalue>
+  </customvalues>
+</customlist>

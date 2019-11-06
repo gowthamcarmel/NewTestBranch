@@ -1,0 +1,52 @@
+<customlist scriptid="customlist_region_grouping">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>RegionGrouping</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>APAC</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CNTL</value>
+    </customvalue>
+    <customvalue scriptid="val_23486624_3431250_203">
+      <isinactive>F</isinactive>
+      <value>DACH</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>F</isinactive>
+      <value>EEUR</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>LAM</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>ME</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>NAM</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>NEUR</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>OFSH</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>SEUR</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>SSA</value>
+    </customvalue>
+  </customvalues>
+</customlist>

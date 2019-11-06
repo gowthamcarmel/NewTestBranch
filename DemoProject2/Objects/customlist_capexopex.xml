@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_capexopex">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Capex/Opex</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Capex</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Opex</value>
+    </customvalue>
+  </customvalues>
+</customlist>

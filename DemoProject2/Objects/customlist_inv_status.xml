@@ -1,0 +1,40 @@
+<customlist scriptid="customlist_inv_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Invoice Status</name>
+  <customvalues>
+    <customvalue scriptid="val_4083052_3431250_960">
+      <isinactive>F</isinactive>
+      <value>Open</value>
+    </customvalue>
+    <customvalue scriptid="val_4083053_3431250_785">
+      <isinactive>F</isinactive>
+      <value>Cancelled</value>
+    </customvalue>
+    <customvalue scriptid="val_4083054_3431250_488">
+      <isinactive>F</isinactive>
+      <value>Paid In Full</value>
+    </customvalue>
+    <customvalue scriptid="val_4083055_3431250_192">
+      <isinactive>F</isinactive>
+      <value>Pending Approval</value>
+    </customvalue>
+    <customvalue scriptid="val_4083056_3431250_356">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_4083057_3431250_859">
+      <isinactive>F</isinactive>
+      <value>Fully Credited</value>
+    </customvalue>
+    <customvalue scriptid="val_4083058_3431250_359">
+      <isinactive>F</isinactive>
+      <value>Partially Credited</value>
+    </customvalue>
+    <customvalue scriptid="val_4083059_3431250_314">
+      <isinactive>F</isinactive>
+      <value>Replaced Due to Legal Entity Change</value>
+    </customvalue>
+  </customvalues>
+</customlist>

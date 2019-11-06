@@ -1,0 +1,11 @@
+<emailtemplate scriptid="custemailtmpl_3_3431250_943">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <name>[NS] Purchase Order Update</name>
+  <recordtype></recordtype>
+  <subject>Purchase Order updated</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

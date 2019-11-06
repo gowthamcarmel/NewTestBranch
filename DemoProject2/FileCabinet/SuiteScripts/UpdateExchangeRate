@@ -1,0 +1,89 @@
+function updateExchangeRate(request,response) {
+	 if ( request.getMethod() == 'GET' )
+	 {
+   		var form = nlapiCreateForm('Update Exchange Rate Tool');
+		var select = form.addField('trantype','select', 'Transaction Type').setLayoutType('normal', 'startcol');
+		select.addSelectOption('invoice','Invoice');
+		select.addSelectOption('creditmemo','Credit Memo');
+		        
+		form.addField('transactionid','text', 'Transaction Number');
+		form.addField('exchangerate','text', 'Exchange Rate');
+		form.addField('servicedeskticket','text', 'Service Desk Ticket');	
+		
+	    form.addSubmitButton('Submit');
+ 
+        response.writePage( form );
+    } 
+	else 
+	{
+	
+		var title = '';
+		var message = '';
+		var type = '';
+		
+		var servicedeskticket = request.getParameter('servicedeskticket');
+		var transtype = request.getParameter('trantype');
+		
+		
+		if(servicedeskticket == null || servicedeskticket == '') 
+		{
+			title = 'Error';
+			message = 'Service Desk Ticket is required.';
+			type = 'error';
+		} 
+		else 
+		{
+			var transnumber = request.getParameter('transactionid');
+			var newexchangerate = request.getParameter('exchangerate');
+			
+			nlapiLogExecution('DEBUG','EX_Rate',newexchangerate);
+			
+			// Search Invoice Number 
+			var filters = [];
+			filters.push(new nlobjSearchFilter('tranid',null,'is', transnumber));
+			
+			var columns = [];
+			columns.push(new nlobjSearchColumn('internalid'));
+			
+			var search = nlapiSearchRecord(transtype,null,filters, columns);
+			
+			if(search) {
+				// Load Transaction and update vatregnum and custbody_service_desk_ticket
+				var rec = nlapiLoadRecord(transtype,search[0].getId());
+				
+				rec.setFieldValue('exchangerate',newexchangerate);
+				rec.setFieldValue('custbody_service_desk_ticket',servicedeskticket);
+				
+				var id = nlapiSubmitRecord(rec);
+				
+				title = 'Confirmation';
+				message = 'Transaction have been updated';
+				type = 'confirmation';
+				
+			} else {
+				title = 'Search Result';
+				message = 'No transaction found. Search for '+transnumber+' returns no results.';
+				type = 'info';
+			}
+		
+		}
+		
+		
+		var form = nlapiCreateForm('Update Exchange Rate Tool');
+		
+		var htmlMessage = form.addField('custpage_header', 'inlinehtml').setLayoutType('normal', 'startcol');
+		htmlMessage.setDefaultValue('<div id="div__alert"><div class="uir-alert-box '+type+' session_'+type+'_alert" width="100%" role="status"><div class="icon '+type+'"><img src="/images/icons/messagebox/icon_msgbox_'+type+'.png" alt=""></div><div class="content"><div class="title">'+title+'</div><div class="descr">'+message+'</div></div></div></div>');
+		
+		var select = form.addField('trantype','select', 'Transaction Type');
+		select.addSelectOption('invoice','Invoice');
+		select.addSelectOption('creditmemo','Credit Memo');
+		        
+		form.addField('transactionid','text', 'Transaction Number');
+		form.addField('exchangerate','text', 'Exchange Rate');
+		form.addField('servicedeskticket','text', 'Service Desk Ticket');	
+		
+	    form.addSubmitButton('Submit');
+ 
+        response.writePage( form );
+	}
+}

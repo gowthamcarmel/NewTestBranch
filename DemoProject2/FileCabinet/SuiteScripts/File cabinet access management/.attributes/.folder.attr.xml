@@ -1,0 +1,6 @@
+<folder>
+  <bundleable>F</bundleable>
+  <description>Script in this folder is to restrict root level folder creation. Deployment will allow root level folder creation only to Administrator role.</description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+</folder>

@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_veninvupld_resolutions">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Vendor Invoice Resolutions</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>T</isinactive>
+      <value>PO Re-Raised (Currency Mis-Match)</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>T</isinactive>
+      <value>Bill Returned To Vendor (Duplicate)</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>PO modification required</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Others (Refer Note)</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_mys_cancel_delink_bill">
+  <defaultfunction>cancelBill</defaultfunction>
+  <description>Cancel vendor Bill and de-link it from it&apos;s corresponding PO in order to release the PO billed quantity.</description>
+  <isinactive>F</isinactive>
+  <name>Cancel and Delink Vendor Bill</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/Cancel and Delink Vendor Bill.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_cancel_delink_bill">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>VENDORBILL</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_type_of_goods">
+  <description>This is a list of type of goods.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Type of Goods</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>IO - integrated circuits</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>MT - mobile phones</value>
+    </customvalue>
+  </customvalues>
+</customlist>

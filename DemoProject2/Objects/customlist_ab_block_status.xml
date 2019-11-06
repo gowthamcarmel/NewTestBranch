@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_ab_block_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>AB Block Status</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Logged</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Escalated</value>
+    </customvalue>
+  </customvalues>
+</customlist>

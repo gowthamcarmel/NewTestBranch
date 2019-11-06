@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_bl001_account_export_type">
+  <description>The Financial Statement column in the Account export file.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Account Export Type</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Reconciliation</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Variance Analysis</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Consolidation Module</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>T</isinactive>
+      <value>Do not export</value>
+    </customvalue>
+  </customvalues>
+</customlist>

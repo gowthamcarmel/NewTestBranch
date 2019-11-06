@@ -1,0 +1,25 @@
+<clientscript scriptid="customscript_il_fa_report_forms_cs">
+  <description></description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>IL FA Report Forms CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction></saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 46539/IL_FA_Reports/IL_FA_CS_Reports_Form.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 46539/IL_FA_Reports/IL_FA_Common.js]</scriptfile>
+    </library>
+  </libraries>
+</clientscript>

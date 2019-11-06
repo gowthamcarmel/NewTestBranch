@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_ic_grouping_direct_indirect">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>IC Grouping Direct/Indirect</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Direct</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Indirect</value>
+    </customvalue>
+  </customvalues>
+</customlist>

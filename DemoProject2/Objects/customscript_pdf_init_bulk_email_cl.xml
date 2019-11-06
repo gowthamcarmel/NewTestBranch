@@ -1,0 +1,20 @@
+<clientscript scriptid="customscript_pdf_init_bulk_email_cl">
+  <description>Client support for bulk email GUI.</description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>[NS] PDF Init Bulk Email Client</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction></pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>pdfInitBulkEmail_saveRecord</saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 52295/Misys_FRD_L2C_016_PdfOutputCL.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+</clientscript>

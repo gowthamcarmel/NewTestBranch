@@ -1,0 +1,45 @@
+<clientscript scriptid="customscript_il_localization_forms_cs">
+  <description></description>
+  <fieldchangedfunction>IL_Forms_fieldChanged</fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>IL Localization Forms CS</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>IL_Forms_pageInit</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>IL_Forms_saveRecord</saverecordfunction>
+  <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_CS_Forms_Localization.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction>IL_Forms_validateField</validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_il_localization_forms_cs">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>ACTION|BUNDLEINSTALLATION|CLIENT|CONSOLRATEADJUSTOR|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|DEBUGGER|EMAILCAPTURE|MAPREDUCE|OTHER|PAYMENTGATEWAY|PAYMENTPOSTBACK|PORTLET|PROMOTIONS|RESTLET|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WEBAPPLICATION|WEBSERVICES|WORKFLOW</executioncontext>
+      <isdeployed>F</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>RECORD</recordtype>
+      <status>TESTING</status>
+    </scriptdeployment>
+  </scriptdeployments>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_Common.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_CS_ClientAppUtil.js]</scriptfile>
+    </library>
+    <library>
+      <scriptfile>[/SuiteBundles/Bundle 46541/Localization-IL/IL_CS_UIWidgets.js]</scriptfile>
+    </library>
+  </libraries>
+</clientscript>

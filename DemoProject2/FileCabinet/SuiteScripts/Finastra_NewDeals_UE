@@ -1,0 +1,23 @@
+function beforeLoad_OnRequisition(type,form)
+{
+	var RecordType = nlapiGetRecordType();
+	//nlapiLogExecution('DEBUG','On New Deals User Event','RecordType='+ RecordType);
+	
+	nlapiLogExecution('DEBUG','On New Deals User Event','type='+ type);
+	
+	nlapiLogExecution('DEBUG','On New Deals User Event','context='+ nlapiGetContext().getExecutionContext());
+	
+	if((nlapiGetContext().getExecutionContext() == 'userinterface'))
+	{
+		
+			var FormID = nlapiGetFieldValue('customform');
+			nlapiLogExecution('DEBUG','On New Deals User Event','FormID='+ FormID);
+			
+						form.setScript('customscript_fin_new_deal_cl');
+				
+	}
+	
+	
+	
+	return true;
+}

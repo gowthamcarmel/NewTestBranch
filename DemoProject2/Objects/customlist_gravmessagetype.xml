@@ -1,0 +1,20 @@
+<customlist scriptid="customlist_gravmessagetype">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>GravMessageType</name>
+  <customvalues>
+    <customvalue scriptid="val_247771_t1510276_136">
+      <isinactive>F</isinactive>
+      <value>CalcTax</value>
+    </customvalue>
+    <customvalue scriptid="val_247772_t1510276_817">
+      <isinactive>F</isinactive>
+      <value>Abort</value>
+    </customvalue>
+    <customvalue scriptid="val_247773_t1510276_232">
+      <isinactive>F</isinactive>
+      <value>Commit</value>
+    </customvalue>
+  </customvalues>
+</customlist>

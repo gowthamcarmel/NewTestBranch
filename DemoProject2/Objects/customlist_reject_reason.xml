@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_reject_reason">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Rejection Reason</name>
+  <customvalues>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Annual Structure Change closed classification</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Duplicate Item Request</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Further Information Required</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Other Details</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Incorrect Value/Quantity</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Legal Entity Migration</value>
+    </customvalue>
+    <customvalue scriptid="val_4735332_3431250_748">
+      <isinactive>F</isinactive>
+      <value>Netsuite Admin</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Not Included in Budget</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Too Expensive</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_ir_approval_status">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>ItemRequest Approval Status</name>
+  <customvalues>
+    <customvalue scriptid="val_21700824_3431250_156">
+      <isinactive>F</isinactive>
+      <value>Pending Procurement Approval </value>
+    </customvalue>
+    <customvalue scriptid="val_21700825_3431250_221">
+      <isinactive>F</isinactive>
+      <value>Pending Finance Approval </value>
+    </customvalue>
+    <customvalue scriptid="val_21700826_3431250_304">
+      <isinactive>F</isinactive>
+      <value>Approved</value>
+    </customvalue>
+    <customvalue scriptid="val_21700827_3431250_734">
+      <isinactive>F</isinactive>
+      <value>Rejected</value>
+    </customvalue>
+    <customvalue scriptid="val_21700828_3431250_616">
+      <isinactive>F</isinactive>
+      <value>Submit for Approval</value>
+    </customvalue>
+  </customvalues>
+</customlist>

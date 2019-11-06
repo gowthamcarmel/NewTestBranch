@@ -1,0 +1,28 @@
+<customlist scriptid="customlist653">
+  <description>Asset sub-type</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Asset sub-type</name>
+  <customvalues>
+    <customvalue scriptid="val_25174207_3431250_316">
+      <isinactive>F</isinactive>
+      <value>PC</value>
+    </customvalue>
+    <customvalue scriptid="val_25174208_3431250_939">
+      <isinactive>F</isinactive>
+      <value>Laptop</value>
+    </customvalue>
+    <customvalue scriptid="val_25174209_3431250_962">
+      <isinactive>F</isinactive>
+      <value>Router</value>
+    </customvalue>
+    <customvalue scriptid="val_25174211_3431250_939">
+      <isinactive>F</isinactive>
+      <value>Server</value>
+    </customvalue>
+    <customvalue scriptid="val_25174212_3431250_327">
+      <isinactive>F</isinactive>
+      <value>Printer</value>
+    </customvalue>
+  </customvalues>
+</customlist>

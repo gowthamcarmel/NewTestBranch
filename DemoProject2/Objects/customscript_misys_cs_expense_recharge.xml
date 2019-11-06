@@ -1,0 +1,25 @@
+<clientscript scriptid="customscript_misys_cs_expense_recharge">
+  <description>Client helper for the Generate Expense Recharges suitelet (FRD 009)</description>
+  <fieldchangedfunction></fieldchangedfunction>
+  <isinactive>F</isinactive>
+  <lineinitfunction></lineinitfunction>
+  <name>[NS] Generate Expense Recharges (CS)</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <pageinitfunction>pageInit_ExpenseRecharges</pageinitfunction>
+  <postsourcingfunction></postsourcingfunction>
+  <recalcfunction></recalcfunction>
+  <saverecordfunction>saveRecord_ExpenseRecharges</saverecordfunction>
+  <scriptfile>[/SuiteScripts/Misys_FRD-R2R-009_SL_ExpenseRecharges.js]</scriptfile>
+  <validatedeletefunction></validatedeletefunction>
+  <validatefieldfunction></validatefieldfunction>
+  <validateinsertfunction></validateinsertfunction>
+  <validatelinefunction></validatelinefunction>
+  <libraries>
+    <library>
+      <scriptfile>[/SuiteScripts/library.misys.js]</scriptfile>
+    </library>
+  </libraries>
+</clientscript>

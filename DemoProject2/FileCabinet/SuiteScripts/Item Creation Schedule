@@ -1,0 +1,181 @@
+/**
+* @author  Santhosh Kumar
+* Request for new Items via employee center to be created in Netsuite. 
+* Scheduled script will be triggered on successful approval of Item Request
+
+*/
+function Schedule_CreateItem()
+{
+	try{
+			var context = nlapiGetContext();
+		    nlapiLogExecution('DEBUG', 'Context: ', context.getExecutionContext());
+		    
+		    var recId = context.getSetting('SCRIPT','custscript_item_req_id');
+		    //nlapiLogExecution('DEBUG', 'param type', recId);
+
+		    
+			nlapiLogExecution('DEBUG', 'Item ID: ', recId);
+
+		    var recType = 'customrecord_item_request';
+			nlapiLogExecution('DEBUG', 'Type: ', recType);
+		    
+		    var rec = nlapiLoadRecord(recType, recId);
+		    
+
+				var approvalStatus = rec.getFieldValue('custrecord_ir_approval_status');
+				var itemid = rec.getFieldValue('custrecord_item_id');
+				var isInactive = rec.getFieldValue('isinactive');
+				var itemRequester = rec.getFieldValue('owner');
+			    //nlapiLogExecution('DEBUG', 'Details' ,'Status:'+approvalStatus+' Item Id: '+itemid,'isInactive: '+isInactive+' ItemRequester: '+itemRequester);
+
+				
+				nlapiLogExecution('DEBUG','Approval Status',approvalStatus);
+				nlapiLogExecution('DEBUG','Item ID',itemid);
+				nlapiLogExecution('DEBUG','Inactive',isInactive);
+				nlapiLogExecution('DEBUG','Requester',itemRequester);
+				
+				//if status has been changed to approved and no vendor already created then process vendor request
+				if(approvalStatus==3 && isEmpty(itemid))
+				{
+					var itemtype = rec.getFieldValue('custrecord_ir_item_type');
+					
+					//var stSubsidiaryId = rec.getFieldValue('custrecord_vr_subsidiary'); - It should assign to all teh subs
+					//newItem.setFieldValue('subsidiary',237);
+					
+					//Print Values
+					nlapiLogExecution('DEBUG','itemId',rec.getFieldValue('custrecord_ir_item_name'));
+					nlapiLogExecution('DEBUG','displayname',rec.getFieldValue('custrecord_ir_item_description'));
+					nlapiLogExecution('DEBUG','custitem_category',rec.getFieldValue('custrecord_ir_category'));
+					nlapiLogExecution('DEBUG','custitem_subcat1',rec.getFieldValue('custrecord_ir_subcategory1'));
+					nlapiLogExecution('DEBUG','custitem_subcat1',rec.getFieldValue('custrecord_ir_subcategory2'));
+					nlapiLogExecution('DEBUG','custitem_capexopex',rec.getFieldValue('custrecord_ir_capexopex'));
+					nlapiLogExecution('DEBUG','expenseaccount',rec.getFieldValue('custrecord_ir_expense_account'));
+					nlapiLogExecution('DEBUG','custitem_misysaccrualaccount',rec.getFieldValue('custrecord_ir_purchase_accrual_account'));
+					//Print Values
+					
+					var itemTypeDesc = 'noninventoryitem';
+					
+					if(itemtype==1)
+					{
+					var newItem = nlapiCreateRecord('noninventoryitem',{subtype: 'purchase',recordmode: 'dynamic'});
+					nlapiLogExecution('DEBUG','New Non-Inventory Item',newItem);
+					
+					//newItem.setFieldValue('customForm',26);
+										
+					//Include Children to link with all subs
+					newItem.setFieldValue('includechildren','T');
+					//Item Name/Number
+					newItem.setFieldValue('itemid',rec.getFieldValue('custrecord_ir_item_name'));
+					//Item Description
+					newItem.setFieldValue('displayname',rec.getFieldValue('custrecord_ir_item_description'));
+					//Category
+					newItem.setFieldValue('custitem_category',rec.getFieldValue('custrecord_ir_category'));
+					//Sub-Category 1
+					newItem.setFieldValue('custitem_subcat1',rec.getFieldValue('custrecord_ir_subcategory1'));
+					//	Sub-Category2
+					newItem.setFieldValue('custitem_subcat2',rec.getFieldValue('custrecord_ir_subcategory2'));
+					//Capex/Opex
+					newItem.setFieldValue('custitem_capexopex',rec.getFieldValue('custrecord_ir_capexopex'));
+					//Expense Account
+					newItem.setFieldValue('expenseaccount',rec.getFieldValue('custrecord_ir_expense_account'));
+                    
+					//Purchase Accrual Account
+					newItem.setFieldValue('custitem_misysaccrualaccount',rec.getFieldValue('custrecord_ir_purchase_accrual_account'));
+				                    
+					//Tax Schedule
+					newItem.setFieldValue('taxschedule',rec.getFieldValue('custrecordir_tax_schedule'));	
+
+					//newItem.selectNewLineItem('itemVendorList');
+					//newItem.setCurrentLineItemValue('itemVendorList', 'vendor','15930');
+					//newItem.commitLineItem('itemVendorList');
+
+					var itemTypeDesc = 'noninventoryitem';
+					
+					}
+					else
+					{
+						var newItem = nlapiCreateRecord('serviceitem',{subtype: 'purchase',recordmode: 'dynamic'});
+					nlapiLogExecution('DEBUG','New Service Item',newItem);
+					
+					//Include Children to link with all subs
+					newItem.setFieldValue('includechildren','T');
+					//newItem.setFieldValue('customForm',26);
+										//Item Name/Number
+					newItem.setFieldValue('itemid',rec.getFieldValue('custrecord_ir_item_name'));
+					//Item Description
+					newItem.setFieldValue('displayname',rec.getFieldValue('custrecord_ir_item_description'));
+					//Category
+					newItem.setFieldValue('custitem_category',rec.getFieldValue('custrecord_ir_category'));
+					//Sub-Category 1
+					newItem.setFieldValue('custitem_subcat1',rec.getFieldValue('custrecord_ir_subcategory1'));
+					//	Sub-Category2
+					newItem.setFieldValue('custitem_subcat2',rec.getFieldValue('custrecord_ir_subcategory2'));
+					//Capex/Opex
+					newItem.setFieldValue('custitem_capexopex',rec.getFieldValue('custrecord_ir_capexopex'));
+					//Expense Account
+					newItem.setFieldValue('expenseaccount',rec.getFieldValue('custrecord_ir_expense_account'));
+                    
+					//Purchase Accrual Account
+					newItem.setFieldValue('custitem_misysaccrualaccount',rec.getFieldValue('custrecord_ir_purchase_accrual_account'));
+				                    
+					//Tax Schedule
+					newItem.setFieldValue('taxschedule',rec.getFieldValue('custrecordir_tax_schedule'));
+					
+					var itemTypeDesc = 'serviceitem';
+					}
+					
+					var itemid = nlapiSubmitRecord(newItem, true, true);
+					nlapiLogExecution('DEBUG', 'Created new Item#', itemid);
+					
+					//update vendor request with newly created Vendor ID
+					nlapiSubmitField(rec.getRecordType(), rec.getId(), 'custrecord_item_id', itemid);
+					
+					
+					//var itemRec = nlapiLoadRecord(itemTypeDesc, itemid);
+					//itemRec.selectNewLineItem('itemvendor');
+					//itemRec.setCurrentLineItemValue('itemvendor', 'vendor', '15930');
+					//itemRec.commitLineItem('itemvendor');
+					//var itemId = nlapiSubmitRecord(itemRec);	
+					
+					if(isNotEmpty(rec.getFieldValue('custrecord_ir_vendor')))
+					{
+						var itemRec = nlapiLoadRecord(itemTypeDesc, itemid);
+						itemRec.selectNewLineItem('itemvendor');
+						itemRec.setCurrentLineItemValue('itemvendor', 'vendor', rec.getFieldValue('custrecord_ir_vendor'));
+						//itemRec.setCurrentLineItemValue('itemvendor', 'subsidiary', '59');
+						itemRec.setCurrentLineItemValue('itemvendor', 'vendorcurrencyid', rec.getFieldValue('custrecord_ir_vendor_currency'));
+						itemRec.setCurrentLineItemValue('itemvendor', 'purchaseprice', rec.getFieldValue('custrecord_ir_purchase_price'));
+						itemRec.commitLineItem('itemvendor');
+						var itemId = nlapiSubmitRecord(itemRec);
+						nlapiLogExecution('DEBUG', 'Updated new Item# with values', itemid);
+					}
+					
+					
+				}	
+	}
+	catch(error) 
+	{
+ 	   if (error.getDetails != undefined) 
+ 	   {
+ 		   nlapiLogExecution('ERROR', 'Process Error', error.getCode() + ': ' + error.getDetails());
+ 		   throw error;
+ 	   }
+ 	   else 
+ 	   {    
+ 		   nlapiLogExecution('ERROR', 'Unexpected Error', error.toString());
+ 		   throw nlapiCreateError('99999', error.toString());
+ 	   }
+ 	}
+}
+
+//LIBRARY FUNCTIONS
+function isEmpty(fld) {return (fld==null||fld=='');}
+function isNotEmpty(fld) {return (fld!=null&&fld!='');}
+function isTrue(fld) {return (isNotEmpty(fld)&&(fld=='T'||fld=='Y'));}
+function isNotTrue(fld) {return (isEmpty(fld)||(fld!='T'&&fld!='Y'));}
+
+function roundNumber(num, dec)
+{
+	var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+	return result;
+}

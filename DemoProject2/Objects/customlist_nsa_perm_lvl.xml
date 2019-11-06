@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_nsa_perm_lvl">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>NSA : Perm Lvl &amp; Restriction</name>
+  <customvalues>
+    <customvalue scriptid="val_68412_t817301_611">
+      <isinactive>F</isinactive>
+      <value>None</value>
+    </customvalue>
+    <customvalue scriptid="val_68413_t817301_665">
+      <isinactive>F</isinactive>
+      <value>View</value>
+    </customvalue>
+    <customvalue scriptid="val_68414_t817301_766">
+      <isinactive>F</isinactive>
+      <value>Create</value>
+    </customvalue>
+    <customvalue scriptid="val_68415_t817301_856">
+      <isinactive>F</isinactive>
+      <value>Edit</value>
+    </customvalue>
+    <customvalue scriptid="val_68416_t817301_656">
+      <isinactive>F</isinactive>
+      <value>Full</value>
+    </customvalue>
+    <customvalue scriptid="val_68417_t817301_929">
+      <isinactive>F</isinactive>
+      <value>Viewing and Editing</value>
+    </customvalue>
+    <customvalue scriptid="val_68418_t817301_541">
+      <isinactive>F</isinactive>
+      <value>Editing Only</value>
+    </customvalue>
+  </customvalues>
+</customlist>

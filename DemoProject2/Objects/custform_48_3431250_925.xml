@@ -1,0 +1,610 @@
+<entryForm scriptid="custform_48_3431250_925" standard="STANDARDCUSTOMRECORD_AB_ACCOUNT_OVERVIEWFORM">
+  <name>As Built : Account Overview Form</name>
+  <recordType>[scriptid=customrecord_ab_account_overview]</recordType>
+  <inactive>F</inactive>
+  <preferred>T</preferred>
+  <storedWithRecord>T</storedWithRecord>
+  <mainFields>
+    <fieldGroup scriptid="fieldgroup_12_3431250_396">
+      <label>Account Basics</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>T</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>RECORDID</id>
+          <label>ID</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>NAME</id>
+          <label>Name</label>
+          <visible>T</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_ns_id]</id>
+          <label>NetSuite Account ID</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_ns_am]</id>
+          <label>NetSuite Account Manager</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+      </fields>
+    </fieldGroup>
+    <fieldGroup scriptid="fieldgroup_8_3431250_396">
+      <label>Business Basics</label>
+      <visible>T</visible>
+      <showTitle>T</showTitle>
+      <singleColumn>T</singleColumn>
+      <fields position="MIDDLE">
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_type]</id>
+          <label>Basic Business Model</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_operation]</id>
+          <label>Core Business Operations</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_revenue]</id>
+          <label>Revenue Earned by..</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_cost]</id>
+          <label>Largest Operating Cost is incurred by...</label>
+          <visible>T</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+      </fields>
+    </fieldGroup>
+    <defaultFieldGroup>
+      <fields position="MIDDLE">
+        <field>
+          <id>CUSTOMFORM</id>
+          <label>Custom Form</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>OWNER</id>
+          <label>Owner</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>CREATED</id>
+          <label>Date Created</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>LASTMODIFIED</id>
+          <label>Last Modified</label>
+          <visible>F</visible>
+          <mandatory>T</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>ISINACTIVE</id>
+          <label>Inactive</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+        <field>
+          <id>PARENT</id>
+          <label>Parent</label>
+          <visible>F</visible>
+          <mandatory>F</mandatory>
+          <displayType>NORMAL</displayType>
+          <columnBreak>F</columnBreak>
+          <sameRowAsPrevious>F</sameRowAsPrevious>
+        </field>
+      </fields>
+    </defaultFieldGroup>
+  </mainFields>
+  <tabs>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_12_3431250_525]</id>
+      <label>Performance Measurement</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_9_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_performan]</id>
+              <label>Performance Measurement</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_6_3431250_396">
+          <label>Key Management Metrics</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_activity]</id>
+              <label>Key Activity Base</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_key_trans]</id>
+              <label>Key Activity Transaction</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_financial]</id>
+              <label>Financial Imperative</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_op_imp]</id>
+              <label>Operational Imperative</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_cust_imp]</id>
+              <label>Customer Imperative</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_perf_meas.custrecord_ab_perf_meas_account]</id>
+          <label>AB : Performance Measures</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_13_3431250_525]</id>
+      <label>Functionality Enabled</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_10_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_func_enab]</id>
+              <label>Functionality Enabled</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <fieldGroup scriptid="fieldgroup_7_3431250_396">
+          <label>Classifications</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_location]</id>
+              <label>Use of Location</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_departmen]</id>
+              <label>Use of Department</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_class]</id>
+              <label>Use of Class</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_subsidiar]</id>
+              <label>Use of Subsidiary</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>NORMAL</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_func_enabled.custrecord_ab_func_enabled_overview]</id>
+          <label>AB : Functionality Enabled</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_15_3431250_525]</id>
+      <label>Adjustment to Standard Process</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_22_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_adjust_st]</id>
+              <label>Adjustment to Standard Process</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_adjusted_func.custrecord_ab_adjusted_func_overview]</id>
+          <label>AB : Adjusted Functionality</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>RECORDTRANSLATION</id>
+      <label>Translation</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>RECORDTRANSLATIONS</id>
+          <label>Translation</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_11_3431250_525]</id>
+      <label>Customisations Deployed</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_11_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_cust_depl]</id>
+              <label>Customisations Deployed</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_custom_funct.custrecord_ab_custom_funct_overview]</id>
+          <label>AB : Custom Functionality</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_17_3431250_525]</id>
+      <label>Bundles Installed</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_21_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_bundles]</id>
+              <label>Bundles Installed</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_partner_bundles.custrecord_ab_partner_bundles_overview]</id>
+          <label>AB : Partner Bundles</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_16_3431250_525]</id>
+      <label>Blocking Issues</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_25_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_blocking]</id>
+              <label>Blocking Issues</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_block.custrecord_ab_block_overview]</id>
+          <label>AB : Blocking Issues</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_19_3431250_525]</id>
+      <label>Opportunities to Grow</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_23_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_opp_to_gr]</id>
+              <label>Opportunities to Grow</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_ab_opp_to_grow.custrecord_ab_opp_to_grow_overview]</id>
+          <label>AB : Opportunity to Grow</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_18_3431250_525]</id>
+      <label>Projects</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <fieldGroup scriptid="fieldgroup_24_3431250_396">
+          <label>Purpose</label>
+          <visible>T</visible>
+          <showTitle>T</showTitle>
+          <singleColumn>T</singleColumn>
+          <fields position="MIDDLE">
+            <field>
+              <id>[scriptid=customrecord_ab_account_overview.custrecord_ab_account_overview_projects]</id>
+              <label>Projects</label>
+              <visible>T</visible>
+              <mandatory>F</mandatory>
+              <displayType>INLINETEXT</displayType>
+              <columnBreak>F</columnBreak>
+              <sameRowAsPrevious>F</sameRowAsPrevious>
+            </field>
+          </fields>
+        </fieldGroup>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>[scriptid=customrecord_pmp_project.custrecord_pmp_project_account]</id>
+          <label>PMP: Projects</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+    <tab>
+      <id>[scriptid=customrecord_ab_account_overview.tab_14_3431250_525]</id>
+      <label>Issues / Opportunity / Project</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>RECORDCUSTOM</id>
+      <label>Custom</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems/>
+    </tab>
+    <tab>
+      <id>RECORDWORKFLOW</id>
+      <label>Workflow</label>
+      <visible>T</visible>
+      <fieldGroups>
+        <defaultFieldGroup/>
+      </fieldGroups>
+      <subItems>
+        <subList>
+          <id>RECORDACTIVEWORKFLOWS</id>
+          <label>Active Workflows</label>
+          <visible>T</visible>
+        </subList>
+        <subList>
+          <id>RECORDWORKFLOWHISTORY</id>
+          <label>Workflow History</label>
+          <visible>T</visible>
+        </subList>
+      </subItems>
+    </tab>
+  </tabs>
+  <quickViewFields/>
+  <actionbar>
+    <buttons/>
+    <menu>
+      <menuitem>
+        <id>delete</id>
+        <label>Delete</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>makecopy</id>
+        <label>Make Copy</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>new</id>
+        <label>New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>print</id>
+        <label>Print</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitcopy</id>
+        <label>Save &amp; Copy</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitnew</id>
+        <label>Save &amp; New</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitnext</id>
+        <label>Save &amp; Next</label>
+        <visible>T</visible>
+      </menuitem>
+      <menuitem>
+        <id>submitas</id>
+        <label>Save As</label>
+        <visible>T</visible>
+      </menuitem>
+    </menu>
+  </actionbar>
+  <editingInList>T</editingInList>
+</entryForm>

@@ -1,0 +1,26 @@
+<workflowactionscript scriptid="customscript_mys_get_usd_amount">
+  <defaultfunction>workflowAction_getAmountUSD</defaultfunction>
+  <description>Get Amount in EUR</description>
+  <isinactive>F</isinactive>
+  <name>Get USD Amount</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>CURRENCY</returntype>
+  <scriptfile>[/SuiteScripts/NetSuite Production/ReturnAuthorizationAmountUSD.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_mys_amount_usd">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>RETURNAUTHORIZATION</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

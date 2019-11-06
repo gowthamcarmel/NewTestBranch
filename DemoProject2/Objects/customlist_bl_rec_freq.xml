@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_bl_rec_freq">
+  <description>Specifies the frequency of reconciliation</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Rec Freq</name>
+  <customvalues>
+    <customvalue scriptid="val_11688236_3431250_374">
+      <isinactive>F</isinactive>
+      <value>(Never)</value>
+    </customvalue>
+    <customvalue scriptid="val_11688235_3431250_174">
+      <isinactive>F</isinactive>
+      <value>Annually</value>
+    </customvalue>
+    <customvalue scriptid="val_4495460_3431250_731">
+      <isinactive>F</isinactive>
+      <value>Monthly</value>
+    </customvalue>
+    <customvalue scriptid="val_4495461_3431250_515">
+      <isinactive>F</isinactive>
+      <value>Weekly</value>
+    </customvalue>
+  </customvalues>
+</customlist>

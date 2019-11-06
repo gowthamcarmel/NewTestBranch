@@ -1,0 +1,16 @@
+<customlist scriptid="customlist_environment">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>ONE: Environment List</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>UAT Sandbox</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Production</value>
+    </customvalue>
+  </customvalues>
+</customlist>

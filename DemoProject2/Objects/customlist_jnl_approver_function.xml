@@ -1,0 +1,48 @@
+<customlist scriptid="customlist_jnl_approver_function">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Journal Approver Function</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>BRAT</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CC</value>
+    </customvalue>
+    <customvalue scriptid="value_10_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Data Migration</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Expenses</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>T</isinactive>
+      <value>G/L</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Group</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Payroll</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>R2R</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>RFD</value>
+    </customvalue>
+    <customvalue scriptid="value_9_3431250_417">
+      <isinactive>T</isinactive>
+      <value>Treasury</value>
+    </customvalue>
+  </customvalues>
+</customlist>

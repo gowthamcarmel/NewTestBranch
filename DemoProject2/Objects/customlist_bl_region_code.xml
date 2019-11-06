@@ -1,0 +1,32 @@
+<customlist scriptid="customlist_bl_region_code">
+  <description>Used as part of the Blackline team identifier where an account is prepare by a different team per region</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Region Code</name>
+  <customvalues>
+    <customvalue scriptid="val_4495406_3431250_609">
+      <isinactive>F</isinactive>
+      <value>AMER</value>
+    </customvalue>
+    <customvalue scriptid="val_4495407_3431250_196">
+      <isinactive>F</isinactive>
+      <value>APAC</value>
+    </customvalue>
+    <customvalue scriptid="val_4495408_3431250_950">
+      <isinactive>F</isinactive>
+      <value>CENT</value>
+    </customvalue>
+    <customvalue scriptid="val_4495409_3431250_364">
+      <isinactive>F</isinactive>
+      <value>MEA</value>
+    </customvalue>
+    <customvalue scriptid="val_4495410_3431250_631">
+      <isinactive>F</isinactive>
+      <value>NEUR</value>
+    </customvalue>
+    <customvalue scriptid="val_4495411_3431250_608">
+      <isinactive>F</isinactive>
+      <value>SEUR</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,24 @@
+<customlist scriptid="customlist_bl_si_ds">
+  <description>Used to define which data source is used to create supporting items for the account.  (for most accounts this should be blank)</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL SI DS</name>
+  <customvalues>
+    <customvalue scriptid="val_4495432_3431250_916">
+      <isinactive>F</isinactive>
+      <value>BSItems1</value>
+    </customvalue>
+    <customvalue scriptid="val_4495431_3431250_578">
+      <isinactive>F</isinactive>
+      <value>GRNI_InTransit</value>
+    </customvalue>
+    <customvalue scriptid="val_4657673_3431250_867">
+      <isinactive>F</isinactive>
+      <value>N/A</value>
+    </customvalue>
+    <customvalue scriptid="val_4657672_3431250_357">
+      <isinactive>F</isinactive>
+      <value>None</value>
+    </customvalue>
+  </customvalues>
+</customlist>

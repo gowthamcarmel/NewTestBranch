@@ -1,0 +1,36 @@
+<customlist scriptid="customlist_tax_schedule_list">
+  <description></description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Tax_Schedule_List</name>
+  <customvalues>
+    <customvalue scriptid="val_21700830_3431250_830">
+      <isinactive>F</isinactive>
+      <value>Standard</value>
+    </customvalue>
+    <customvalue scriptid="val_21700831_3431250_630">
+      <isinactive>F</isinactive>
+      <value>Non-Taxable</value>
+    </customvalue>
+    <customvalue scriptid="val_21700832_3431250_753">
+      <isinactive>F</isinactive>
+      <value>InterCompany Tax Schedule</value>
+    </customvalue>
+    <customvalue scriptid="val_21700833_3431250_478">
+      <isinactive>F</isinactive>
+      <value>Support</value>
+    </customvalue>
+    <customvalue scriptid="val_21700834_3431250_979">
+      <isinactive>F</isinactive>
+      <value>Services</value>
+    </customvalue>
+    <customvalue scriptid="val_21700835_3431250_413">
+      <isinactive>F</isinactive>
+      <value>Subscriptions</value>
+    </customvalue>
+    <customvalue scriptid="val_21700836_3431250_820">
+      <isinactive>F</isinactive>
+      <value>Licenses</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,251 @@
+<head>
+<meta name="title" value="@@TITLE_HERE@@"/>
+<!-- 
+$Archive: Misys/CreditTemplatePDF$
+$Author: Ken Woodhouse$
+$Date: 29/05/2014$
+
+$Modtime: 16:54$
+$Revision: 8$
+
+==========================================================================================
+N.B. The LANG statement MUST be a single string containing neither comments nor line ends!
+===========================================================================================
+
+@@LANG[TL_INV:'Invoice',TL_INV_TX:'Tax Invoice',TL_CRN:'Credit Note',RLF_M_D:'Recurring License Fee/Maintenance',RLF_M_R:'for the period @@START_PERIOD_HERE@@ to @@END_PERIOD_HERE@@',RLF_S_D:'Leasing fee',RLF_S_R:'for the period @@START_PERIOD_HERE@@ to @@END_PERIOD_HERE@@',RLF_O_D:'Uncategorised items',RLF_O_R:'for the period @@START_PERIOD_HERE@@ to @@END_PERIOD_HERE@@',SBT_NET:'NET',SBT_VAT:'VAT',SBT_AMT:'TOTAL',PO_NUM:'PO Number',CO_NUM:'Contract Number',C0_DAT:'Contract Date',CL_VAT:'Client VAT Number',MS_REF:'Misys Ref',CL_NUM:'Client Number',PJ_NAM:'Project Name',PJ_NUM:'Project Number',MS_VAT:'Misys VAT Number',MS_VAT_AU:'Misys ABN Number',MS_VAT_US:'Misys FIN Number',MS_VAT_EG:'Misys Tax Number',MS_VAT_JP:'Misys Tax Number',MS_VAT_MA:'Misys Tax Number',MS_VAT_PH:'Tax Identification Number (TIN)',MS_VAT_RU:'Misys Russia Tax Number',MS_VAT_ZA:'South Africa VAT Number']END@@
+
+
+CR-1
+Changed by :Gowthaman
+Change Description : For Malaysia subsidary added Invoice date and Reason code
+Changed On :07/10/2015 
+
+
+-->
+
+<style>
+body {
+	font-family: Gill Sans MT, sans-serif;
+	font-size: 10pt;
+}
+table {
+	width: 100%;
+}
+table#chargeTbl {
+	width:100%; 
+	font-weight: bold; 
+	border-width: medium; 
+	border-style: solid;
+}
+table#chargeTbl thead {
+	font-weight: bold; 
+	border-width: medium; 
+	border-bottom: solid; 
+	border-top: none; 
+	border-left: none; 
+	border-right: none;
+	background-color:#CCCCCC;
+}
+table#chargeTbl td {
+	font-weight: normal;
+	align: left;
+	padding-right: 2mm;
+	border-width: medium; 
+	border-bottom: none; 
+	border-top: none; 
+	border-left: solid; 
+	border-right: none;
+}
+table#chargeTbl td:first-child {
+	font-weight: normal;
+	align: left;
+	padding-left: 2mm;
+	border-width: medium; 
+	border-bottom: none; 
+	border-top: none; 
+	border-left: none; 
+	border-right: none;	
+}
+table#chargeTbl tfoot {
+	font-weight: normal; 
+	border-width: medium; 
+	border-bottom: none; 
+	border-top: solid; 
+	border-left: solid; 
+	border-right: none;
+}
+table#chargeTbl tfoot td:first-child {
+	font-weight: bold;
+	align: right;
+	padding-right: 2mm;
+	border-width: medium; 
+	border-bottom: none; 
+	border-top: none; 
+	border-left: none; 
+	border-right: none;	
+}
+table#chargeTbl td.noBar {
+	border-width: medium; 
+	border-bottom: none; 
+	border-top: none; 
+	border-left: none; 
+	border-right: none;	
+}
+table#chargeTbl td.noLeftBar {
+	border-left: none; 
+}
+table#chargeTbl td.topBar {
+	border-width: medium; 
+	border-top: solid; 
+}
+table#chargeTbl td.topNoLeftBar {
+	border-left: none; 
+	border-width: medium; 
+	border-top: solid; 
+}
+.subtotaltext {
+	font-weight: bold; 
+	padding-right: 8mm;
+}
+table#chargeTbl td.money {
+	align: right;
+	border-left: none;
+}
+table#chargeTbl td.moneyTopBar {
+	align: right;
+	border-top: solid; 
+	border-left: none;
+}
+.subtotalvalue {
+	font-weight: bold;
+}
+.subtitle {
+	padding-left: 0mm;
+	font-weight: bold;
+}
+.divider {
+	border-width: medium;
+	border-bottom: none;
+	border-top: solid;
+	border-left: none;
+	border-right: none;
+}
+
+<macrolist>
+	<macro id="myheader">
+
+		<!-- Logo -->
+		<p style="position:absolute; left:110mm; top:0mm;"><img width="190px" height="50px" align="left" src="@@MISYS_LOGO_HERE@@" /></p>
+
+		<!-- Misys address -->
+		<p style="position:absolute; left:85mm; top:2cm; width:8cm; align:right; padding:0mm">@@MISYS_ADDRESS_HERE@@</p>
+
+		<!-- Misys info -->
+		<p style="position:absolute; left:85mm; top:60mm; width:8cm; align:right; padding:0mm">@@MISYS_REG_NUM_HERE@@</p>
+
+		<!-- Transaction header -->
+		<p style="position:absolute; left:0cm; top:0mm; font-weight:bold; font-size:12pt;">@@TITLE_HERE@@</p>
+
+		<!-- Client address -->
+		<p style="position:absolute; left:0cm; top:2cm; padding-left:0mm; width:8.5cm">@@CLIENT_ADDRESS_HERE@@</p>
+
+		<!-- invoice details -->
+		<p style="position:absolute; left:0cm; top:60mm; padding-left:0mm; width:8.5cm">@@CLIENT_INFO_HERE@@</p>
+		
+		<!-- Fullfillment date  -->
+		<p style="position:absolute; left:110mm; top:95mm; padding-right:0mm; width:8.5cm">@@FULLFILLMENT_DATE_HERE@@</p>
+		
+	</macro>
+
+	<macro id="noheader">
+	</macro>
+
+	<macro id="myfooter">
+		<table>
+			<tr><td width="85%">
+				<p style="font-size:8pt; font-weight:bold;">
+					&nbsp;<br/>
+				</p>
+			</td>
+			<td width="35%" align="right">
+				<p style="text-align:right; font-size:8pt; font-weight:bold;">Page <pagenumber/> of <totalpages/></p>
+			</td></tr>
+		</table>
+	</macro>
+</macrolist>
+
+</style>  
+</head>
+<body header="myheader" header-height="105mm" footer="myfooter" footer-height="-0mm" margin-left="10mm" margin-right="10mm" margin-top="-5mm" margin-bottom="10mm" size="A4">
+
+
+<table id="chargeTbl">
+	<thead>
+		<!-- header definition -->
+		<tr><td><p text-align="left"><b>Credit Note Number</b></p></td><td><p text-align="left"><b>Credit Note Date</b></p></td><td><p text-align="left"><b>Payment Due</b></p></td><td width="48mm" colspan="3"><p text-align="left"><b>Credit Applied To</b></p></td><td ><p text-align="left"><b>Invoice Date</b></p></td></tr>
+
+	</thead>
+	<tbody> 
+		<!-- line item list -->
+		<tr><td>@@TRANID_HERE@@</td><td>@@TAX_DATE_HERE@@</td><td>@@DUE_DATE_HERE@@</td><td colspan="3">@@APPLIED_TO_HERE@@</td><td >@@APPLIED_TO_DATE@@</td></tr>
+	
+		<tr class="divider"><td colspan="3"></td><td></td><td class="noLeftBar" colspan="3"></td></tr>@@BODY_HERE@@</tbody>
+	</table>
+
+<!-- <tfoot></tfoot>  -->
+
+	<!--<p style="padding:2mm; margin-top:1cm; width:50mm; align:left; border-width:medium; border-style:solid;">
+		<table>
+			<tr><td>Reason Code:</td>
+			<td width="22mm" align="right">@@REASON_CODE@@</td>
+			</tr>
+		</table>
+		</p> -->
+		
+		<p style="padding:2mm; margin-top:1cm; width:75mm; align:right; border-width:medium; border-style:solid;">
+		<table>
+			<tr><td>Total Amount Due:</td>
+			<td width="10mm">(@@CURRENCY_SYMBOL_HERE@@)</td>
+			<td width="22mm" align="right">@@TOTAL_DUE_HERE@@</td>
+			</tr>
+		</table>
+	</p> 
+	
+			@@REASON_CODE_HERE@@
+		
+	<!--<p style="padding:2mm; margin-top:1cm; width:75mm; align:left; border-width:medium; border-style:solid;">
+		<table>
+		
+		    <tr><td>Reason Code:</td>
+			<td>""</td>
+			<td width="22mm" align="right">@@REASON_CODE@@</td>
+			<td>""</td>
+			<td>Total Amount Due:</td>
+			<td width="10mm">(@@CURRENCY_SYMBOL_HERE@@)</td>
+			<td width="22mm" align="right">@@TOTAL_DUE_HERE@@</td>
+			</tr>
+		</table>
+	</p> -->
+
+	<p style="padding:2mm; margin-top:1cm; width:100%; border-width:medium; border-style:solid;">
+		For queries please contact <i><u>AR.Support@misys.com</u></i><br/>
+		@@SALES_TAX_TEXT_HERE@@
+		@@SUBS_INVOICE_TEXT_HERE@@
+		@@SIGNATORY_HERE@@
+	</p>
+
+<!-- ===================================================================== -->
+<!-- N.B. no comments permitted between the two "BACKING_SHEET" delimiters -->
+<!-- ===================================================================== -->
+
+@@START_BACKING_SHEET:
+
+<pbr header="noheader" header-height="0mm" footer="myfooter" footer-height="-0mm" margin-left="10mm" margin-right="10mm" margin-top="-5mm" margin-bottom="10mm" size="A4"/>
+<p style="font-weight:bold; font-size:12pt;">Backing sheet</p>
+<p>
+	<span style="font-weight:bold; font-size:10pt;">Components</span><br/>
+	@@COMPONENTS_HERE@@
+</p>
+
+:END_BACKING_SHEET@@
+</body>

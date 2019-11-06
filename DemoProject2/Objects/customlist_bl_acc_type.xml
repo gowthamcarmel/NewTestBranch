@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_bl_acc_type">
+  <description>Blackline account type must be specified on the balance upload, but is different from NS account type</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>BL Acc Type</name>
+  <customvalues>
+    <customvalue scriptid="val_4495426_3431250_617">
+      <isinactive>F</isinactive>
+      <value>Asset</value>
+    </customvalue>
+    <customvalue scriptid="val_4495427_3431250_671">
+      <isinactive>F</isinactive>
+      <value>Equity</value>
+    </customvalue>
+    <customvalue scriptid="val_4495428_3431250_207">
+      <isinactive>F</isinactive>
+      <value>Expense</value>
+    </customvalue>
+    <customvalue scriptid="val_4495429_3431250_928">
+      <isinactive>F</isinactive>
+      <value>Liability</value>
+    </customvalue>
+    <customvalue scriptid="val_4495430_3431250_906">
+      <isinactive>F</isinactive>
+      <value>Revenue</value>
+    </customvalue>
+  </customvalues>
+</customlist>

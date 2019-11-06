@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_misys_product_line">
+  <description>This was requested to be added on Oct 17, 2013</description>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <name>Product Line</name>
+  <customvalues>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>CM Retail &amp; Lending</value>
+    </customvalue>
+    <customvalue scriptid="value_4_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Corporate Banking</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Enterprise Retail</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>No Analysis</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Other Products</value>
+    </customvalue>
+    <customvalue scriptid="value_8_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Payments</value>
+    </customvalue>
+    <customvalue scriptid="value_3_3431250_417">
+      <isinactive>F</isinactive>
+      <value>TBS</value>
+    </customvalue>
+    <customvalue scriptid="val_13340105_3431250_385">
+      <isinactive>F</isinactive>
+      <value>TEMS</value>
+    </customvalue>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Treasury Capital Markets</value>
+    </customvalue>
+  </customvalues>
+</customlist>

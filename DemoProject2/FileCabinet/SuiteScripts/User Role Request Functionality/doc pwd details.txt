@@ -1,0 +1,3 @@
+doc : User role request - End user guide_V 1.0.docx
+
+pwd : nsadmin@netsuite

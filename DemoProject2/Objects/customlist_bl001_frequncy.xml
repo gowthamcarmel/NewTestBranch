@@ -1,0 +1,28 @@
+<customlist scriptid="customlist_bl001_frequncy">
+  <description>Schedule Frequency</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Blackline Frequency</name>
+  <customvalues>
+    <customvalue scriptid="value_1_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Nightly</value>
+    </customvalue>
+    <customvalue scriptid="value_5_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Every 4 Hours</value>
+    </customvalue>
+    <customvalue scriptid="value_6_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Every 2 Hours</value>
+    </customvalue>
+    <customvalue scriptid="value_2_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Hourly</value>
+    </customvalue>
+    <customvalue scriptid="value_7_3431250_417">
+      <isinactive>F</isinactive>
+      <value>Daily at a Specific Time</value>
+    </customvalue>
+  </customvalues>
+</customlist>
